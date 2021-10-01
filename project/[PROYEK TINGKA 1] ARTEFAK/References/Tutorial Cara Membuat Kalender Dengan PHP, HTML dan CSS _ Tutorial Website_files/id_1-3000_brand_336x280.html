@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!-- saved from url=(0172)https://tpc.googlesyndication.com/sadbundle/$csp%3Der3$/11372843488915177116/id_1-3000_brand_336x280.html#t=10741727270523036109&p=https%3A%2F%2Fgoogleads.g.doubleclick.net -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script src="./exitapi-impl.js.download" type="text/javascript"></script><script src="./addata.js.download" type="text/javascript"></script><meta content="width=336,height=280" name="ad.size"><title>id_1-3000_brand_336x280</title><script src="./createjs_2015.11.26_54e1c3722102182bb133912ad4442e19_min.js.download"></script><script src="./id_1-3000_brand_336x280.js.download"></script><script>
+var canvas, stage, exportRoot;
+function init() {
+	// --- write your JS code here ---
+	canvas = document.getElementById("canvas");
+	images = images||{};
+	var loader = new createjs.LoadQueue(false);
+	loader.addEventListener("fileload", handleFileLoad);
+	loader.addEventListener("complete", handleComplete);
+	loader.loadManifest(lib.properties.manifest);
+}
+function handleFileLoad(evt) {
+	if (evt.item.type == "image") { images[evt.item.id] = evt.result; }
+}
+function handleComplete(evt) {
+	var queue = evt.target;
+	var ssMetadata = lib.ssMetadata;
+	for(i=0; i<ssMetadata.length; i++) {
+		ss[ssMetadata[i].name] = new createjs.SpriteSheet( {"images": [queue.getResult(ssMetadata[i].name)], "frames": ssMetadata[i].frames} )
+	}
+	exportRoot = new lib.id_13000_brand_336x280();
+	stage = new createjs.Stage(canvas);
+	stage.addChild(exportRoot);
+	stage.enableMouseOver();
+	createjs.Ticker.setFPS(lib.properties.fps);
+	createjs.Ticker.addEventListener("tick", stage);
+}
+</script><script type="text/javascript" src="./db7KNPtkE4zG9BtR4cnMZHttZikK_5y0_126agzRcbU.js.download"></script></head><body onclick="ExitApi.exit();" onload="init();" style="background-color:#D4D4D4;margin:0px;; cursor:pointer">
+
+
+
+
+
+
+
+
+
+
+	<canvas height="280" id="canvas" style="background-color: rgb(4, 19, 30); cursor: pointer;" width="336"></canvas>
+
+
+</body></html>

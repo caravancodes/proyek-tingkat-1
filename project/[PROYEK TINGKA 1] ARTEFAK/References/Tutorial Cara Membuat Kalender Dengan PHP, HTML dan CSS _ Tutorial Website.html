@@ -1,0 +1,1034 @@
+<!DOCTYPE html>
+<!-- saved from url=(0080)http://www.jurnalweb.com/tutorial-cara-membuat-kalender-dengan-php-html-dan-css/ -->
+<html lang="en-US" prefix="og: http://ogp.me/ns#" class="no-js"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script async="" src="http://static.ak.fbcdn.net/connect.php/js/FB.Share?_=1490846009909"></script>
+
+
+<link href="http://www.google-analytics.com/" rel="dns-prefetch">
+<link href="http://www.jurnalweb.com/wp-content/themes/OptimJW/img/icons/favicon.ico" rel="shortcut icon">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- URL Theme Color untuk Chrome, Firefox OS, Opera dan Vivaldi -->
+<meta name="theme-color" content="#001b2a">
+<!-- URL Theme Color untuk Windows Phone -->
+<meta name="msapplication-navbutton-color" content="#001b2a">
+<!-- URL Theme Color untuk iOS Safari -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#001b2a">
+
+<!-- This site is optimized with the Yoast SEO plugin v4.5 - https://yoast.com/wordpress/plugins/seo/ -->
+<title>Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS | Tutorial Website</title>
+<meta name="description" content="Cara membuat kalender dengan PHP, HTML dan CSS — Kalender / Calendar sering kita jumpai di halaman website, bahkan di CMS wordpress pun ada widget untuk menampilkan kalendar">
+<meta name="robots" content="noodp">
+<meta name="keywords" content="PHP, Web Development, Web Programming, PHP Calendar, Kalender PHP, Membuat Kalender">
+<link rel="canonical" href="http://www.jurnalweb.com/tutorial-cara-membuat-kalender-dengan-php-html-dan-css/">
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS | Tutorial Website">
+<meta property="og:description" content="Cara membuat kalender dengan PHP, HTML dan CSS — Kalender / Calendar sering kita jumpai di halaman website, bahkan di CMS wordpress pun ada widget untuk menampilkan kalendar">
+<meta property="og:url" content="http://www.jurnalweb.com/tutorial-cara-membuat-kalender-dengan-php-html-dan-css/">
+<meta property="og:site_name" content="Jurnal Web">
+<meta property="article:publisher" content="https://www.facebook.com/jurnalweb">
+<meta property="article:author" content="http://www.facebook.com/jurnalweb">
+<meta property="article:tag" content="CSS">
+<meta property="article:tag" content="HTML">
+<meta property="article:tag" content="Kalender PHP">
+<meta property="article:tag" content="Membuat Kalender">
+<meta property="article:tag" content="PHP">
+<meta property="article:tag" content="PHP Calendar">
+<meta property="article:tag" content="Tutorial PHP">
+<meta property="article:tag" content="Web Development">
+<meta property="article:tag" content="Web Programming">
+<meta property="article:section" content="Tutorials">
+<meta property="article:published_time" content="2014-07-19T06:13:29+07:00">
+<meta property="article:modified_time" content="2016-02-20T01:53:26+07:00">
+<meta property="og:updated_time" content="2016-02-20T01:53:26+07:00">
+<meta property="og:image" content="http://www.jurnalweb.com/wp-content/uploads/2014/07/kalender-php-html-css.jpg">
+<meta property="og:image:width" content="684">
+<meta property="og:image:height" content="298">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:description" content="Cara membuat kalender dengan PHP, HTML dan CSS — Kalender / Calendar sering kita jumpai di halaman website, bahkan di CMS wordpress pun ada widget untuk menampilkan kalendar">
+<meta name="twitter:title" content="Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS | Tutorial Website">
+<meta name="twitter:site" content="@jurnal_web">
+<meta name="twitter:image" content="http://www.jurnalweb.com/wp-content/uploads/2014/07/kalender-php-html-css.jpg">
+<meta name="twitter:creator" content="@jurnalweb">
+<!-- / Yoast SEO plugin. -->
+
+<link rel="dns-prefetch" href="http://s0.wp.com/">
+<link rel="dns-prefetch" href="http://connect.facebook.net/">
+<link rel="dns-prefetch" href="http://s.w.org/">
+<link rel="alternate" type="application/rss+xml" title="Jurnal Web » Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS Comments Feed" href="http://www.jurnalweb.com/tutorial-cara-membuat-kalender-dengan-php-html-dan-css/feed/">
+<link rel="stylesheet" id="yarppWidgetCss-css" href="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/widget.css" type="text/css" media="all">
+<link rel="stylesheet" id="digg-digg-css" href="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/diggdigg-style.css" type="text/css" media="screen">
+<link rel="stylesheet" id="spu-public-css-css" href="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/public.css" type="text/css" media="all">
+<link rel="stylesheet" id="screen-style-css" href="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/style.css" type="text/css" media="all">
+<!-- Inline jetpack_facebook_likebox -->
+<style id="jetpack_facebook_likebox-inline-css" type="text/css">
+.widget_facebook_likebox {
+	overflow: hidden;
+}
+
+</style>
+<link rel="stylesheet" id="yarpp-thumbnails-yarpp-thumbnail-css" href="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/styles_thumbnails.css.php" type="text/css" media="all">
+<link rel="stylesheet" id="social-logos-css" href="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/social-logos.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="jetpack_css-css" href="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/jetpack.css" type="text/css" media="all">
+<script src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/cb=gapi.loaded_1" async=""></script><script src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/cb=gapi.loaded_0" async=""></script><script async="" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/analytics.js.download"></script><script type="text/javascript" async="" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/plusone.js.download" gapi_processed="true">{"parsetags": "explicit"}</script><script id="twitter-wjs" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/widgets.js.download"></script><script id="facebook-jssdk" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/sdk.js.download"></script><script src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/ca-pub-6255327593321660.js.download"></script><script type="text/javascript" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/jquery.js.download"></script>
+<script type="text/javascript" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/jquery-migrate.min.js.download"></script>
+<script type="text/javascript" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/sdk.js(1).download"></script>
+<script type="text/javascript" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/scripts.js.download"></script>
+<link rel="https://api.w.org/" href="http://www.jurnalweb.com/wp-json/">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.jurnalweb.com/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.jurnalweb.com/wp-includes/wlwmanifest.xml"> 
+<link rel="shortlink" href="http://goo.gl/ogupmB">
+<link rel="alternate" type="application/json+oembed" href="http://www.jurnalweb.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.jurnalweb.com%2Ftutorial-cara-membuat-kalender-dengan-php-html-dan-css%2F">
+<link rel="alternate" type="text/xml+oembed" href="http://www.jurnalweb.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.jurnalweb.com%2Ftutorial-cara-membuat-kalender-dengan-php-html-dan-css%2F&amp;format=xml">
+<link rel="image_src" href="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/kalender.jpg"><style type="text/css">img#wpstats{display:none}</style><style type="text/css">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}.fb_link img{border:none}@keyframes fb_transform{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform .3s forwards}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_reset .fb_dialog_legacy{overflow:visible}.fb_dialog_advanced{padding:10px;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px}.fb_dialog_content{background:#fff;color:#333}.fb_dialog_close_icon{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;_background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yL/r/s816eWC-2sl.gif);cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{top:5px;left:5px;right:auto}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent;_background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yL/r/s816eWC-2sl.gif)}.fb_dialog_close_icon:active{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent;_background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yL/r/s816eWC-2sl.gif)}.fb_dialog_loader{background-color:#f6f7f9;border:1px solid #606060;font-size:24px;padding:20px}.fb_dialog_top_left,.fb_dialog_top_right,.fb_dialog_bottom_left,.fb_dialog_bottom_right{height:10px;width:10px;overflow:hidden;position:absolute}.fb_dialog_top_left{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 0;left:-10px;top:-10px}.fb_dialog_top_right{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 -10px;right:-10px;top:-10px}.fb_dialog_bottom_left{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 -20px;bottom:-10px;left:-10px}.fb_dialog_bottom_right{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 -30px;right:-10px;bottom:-10px}.fb_dialog_vert_left,.fb_dialog_vert_right,.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{position:absolute;background:#525252;filter:alpha(opacity=70);opacity:.7}.fb_dialog_vert_left,.fb_dialog_vert_right{width:10px;height:100%}.fb_dialog_vert_left{margin-left:-10px}.fb_dialog_vert_right{right:0;margin-right:-10px}.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{width:100%;height:10px}.fb_dialog_horiz_top{margin-top:-10px}.fb_dialog_horiz_bottom{bottom:0;margin-bottom:-10px}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #365899;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title>span{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{-webkit-transform:none;height:100%;margin:0;overflow:visible;position:absolute;top:-10000px;left:0;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{width:auto;height:auto;min-height:initial;min-width:initial;background:none}.fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner{width:100%}.fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content{background:none}.loading.centered #fb_dialog_loader_close{color:#fff;display:block;padding-top:20px;clear:both;font-size:18px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .45);position:absolute;bottom:0;left:0;right:0;top:0;width:100%;min-height:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_content .dialog_header{-webkit-box-shadow:white 0 1px 1px -1px inset;background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#738ABA), to(#2C4987));border-bottom:1px solid;border-color:#1d4088;color:#fff;font:14px Helvetica, sans-serif;font-weight:bold;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{-webkit-font-smoothing:subpixel-antialiased;height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#4966A6), color-stop(.5, #355492), to(#2A4887));border:1px solid #29487d;-webkit-background-clip:padding-box;-webkit-border-radius:3px;-webkit-box-shadow:rgba(0, 0, 0, .117188) 0 1px 1px inset, rgba(255, 255, 255, .167969) 0 1px 0;display:inline-block;margin-top:3px;max-width:85px;line-height:18px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{border:none;background:none;color:#fff;font:12px Helvetica, sans-serif;font-weight:bold;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #555;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f6f7f9;border:1px solid #555;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}#fb_dialog_loader_spinner{animation:rotateSpinner 1.2s linear infinite;background-color:transparent;background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/t-wz8gw1xG1.png);background-repeat:no-repeat;background-position:50% 50%;height:24px;width:24px}@keyframes rotateSpinner{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_hide_iframes iframe{position:relative;left:-10000px}.fb_iframe_widget_loader{position:relative;display:inline-block}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}.fb_iframe_widget_loader iframe{min-height:32px;z-index:2;zoom:1}.fb_iframe_widget_loader .FB_Loader{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat;height:32px;width:32px;margin-left:-16px;position:absolute;left:50%;z-index:4}</style><script type="text/javascript" charset="utf-8" async="" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/button.ea31e9a5ca2c3a1514ec1ed6530e2669.js.download"></script></head>
+<body class="post-template-default single single-post postid-162 single-format-standard">
+<header id="header">
+	<div class="container">
+		<div class="row" role="banner">
+			<div class="col-md-3">
+				<div class="branding">
+					<a href="http://www.jurnalweb.com/"><img class="logo" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/logo.png" alt=""></a>
+					<h1 class="brand"><a href="http://www.jurnalweb.com/">Jurnal Web<small> .com</small></a></h1>
+					<p class="tagline">Web • Design • Technology • SEO</p>
+				</div>
+			</div>
+
+			<div class="col-md-9">
+								<div class="adspace pm right">
+					<img src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/top-banner.jpg">
+<!--
+<img src="http://www.jurnalweb.com/wp-content/uploads/2016/05/top-banner-white.jpg">
+<img src="http://www.jurnalweb.com/wp-content/uploads/2016/05/top-banner.jpg">
+-->				</div>
+							</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-md-12">
+				<nav class="navigation"><div id="menu-icon"><i class="fa fa-bars"></i> Menu</div>
+					<ul class="main-menu"><li id="menu-item-6813" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-6813"><a title="Home" href="http://www.jurnalweb.com/"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+<li id="menu-item-294" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-294"><a title="News" href="http://www.jurnalweb.com/cat/news/"><i class="fa fa-newspaper-o" aria-hidden="true"></i> News</a></li>
+<li id="menu-item-291" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-291"><a title="Articles" href="http://www.jurnalweb.com/cat/articles/"><i class="fa fa-file-text-o" aria-hidden="true"></i> Articles</a></li>
+<li id="menu-item-297" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-297"><a title="Tutorials" href="http://www.jurnalweb.com/cat/tutorials/"><i class="fa fa-user-secret" aria-hidden="true"></i> Tutorials</a></li>
+<li id="menu-item-296" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-296"><a title="Tips &amp; Tricks" href="http://www.jurnalweb.com/cat/tips-tricks/"><i class="fa fa-star" aria-hidden="true"></i> Tips &amp; Tricks</a></li>
+<li id="menu-item-293" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-293"><a title="Inspirations" href="http://www.jurnalweb.com/cat/inspirations/"><i class="fa fa-lightbulb-o" aria-hidden="true"></i> Inspirations</a></li>
+<li id="menu-item-10518" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-10518"><a title="Tools" href="http://www.jurnalweb.com/cat/tools/"><i class="fa fa-wrench" aria-hidden="true"></i> Tools</a></li>
+<li id="menu-item-295" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-295"><a title="Resources" href="http://www.jurnalweb.com/cat/resources/"><i class="fa fa-archive" aria-hidden="true"></i> Resources</a></li>
+<li id="menu-item-292" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-292"><a title="Freebies" href="http://www.jurnalweb.com/cat/freebies/"><i class="fa fa-download" aria-hidden="true"></i> Freebies</a></li>
+</ul>					
+					<div class="searchnav" role="search">
+						<a href="http://www.jurnalweb.com/tutorial-cara-membuat-kalender-dengan-php-html-dan-css/#" id="searchtoggl"><i class="fa fa-search fa-lg"></i></a>
+					</div>
+				</nav>
+
+				<div id="searchbar" class="header-search clearfix"> 
+					<form id="searchform" method="get" action="http://www.jurnalweb.com/"> 
+						<button type="submit" id="searchsubmit" class="fa fa-search fa-4x"></button> 
+						<input type="search" name="s" id="s" placeholder="Type keyword and Enter..." autocomplete="off">
+					</form> 
+				</div>
+
+			</div>
+		</div>
+
+	</div>
+</header> <!--/ .header -->
+
+
+
+<main class="container main">
+	<div class="row">
+	
+		<div class="col-md-8 content single-page">
+
+		
+			<div class="breadcrumbs hide-mobile"><span xmlns:v="http://rdf.data-vocabulary.org/#"><span typeof="v:Breadcrumb"><a href="http://www.jurnalweb.com/" rel="v:url" property="v:title">Home</a> » <span rel="v:child" typeof="v:Breadcrumb"><a href="http://www.jurnalweb.com/cat/tutorials/" rel="v:url" property="v:title">Tutorials</a> » <span class="breadcrumb_last">Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS</span></span></span></span></div>
+
+
+			<article class="single-detail" id="post-162">
+				<h2 class="post-title"><a href="http://www.jurnalweb.com/tutorial-cara-membuat-kalender-dengan-php-html-dan-css/" title="Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS">Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS</a></h2>
+
+				<ul class="post-meta">
+					<li class="meta-author" property="author" typeof="person" resource="#authorname"><span class="vcard author post-author"><span class="fn">Jurnal Web</span></span></li>
+					<li class="meta-date" property="datePublished" data-content="July 19, 2014 6:13 am"><span class="post-date updated">19 Jul 2014</span></li>
+					<li class="meta-category" property="keywords"><a href="http://www.jurnalweb.com/cat/tutorials/" rel="category tag">Tutorials</a></li> 
+					<li class="meta-comments" property="discussionUrl"><a href="http://www.jurnalweb.com/tutorial-cara-membuat-kalender-dengan-php-html-dan-css/#comments">18 Comments</a></li>
+					<li class="meta-likes"><small>Short URL: <a rel="shortlink" href="http://goo.gl/ogupmB" title="Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS">http://goo.gl/ogupmB</a></small></li>
+				</ul>
+				<div class="post-likes fb-like">
+					<!-- Fb Like -->
+					<div class="fb-like fb_iframe_widget" data-href="https://www.facebook.com/jurnalweb" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false" fb-xfbml-state="rendered" fb-iframe-plugin-query="action=like&amp;app_id=&amp;container_width=0&amp;href=https%3A%2F%2Fwww.facebook.com%2Fjurnalweb&amp;layout=button_count&amp;locale=en_US&amp;sdk=joey&amp;share=false&amp;show_faces=true"><span style="vertical-align: bottom; width: 73px; height: 20px;"><iframe name="f1fd598b7ae5ac" width="1000px" height="1000px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" title="fb:like Facebook Social Plugin" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/like.html" style="border: none; visibility: visible; width: 73px; height: 20px;" class=""></iframe></span></div>
+					<!-- End: Fb Like -->
+				</div>
+				
+				<div class="post-content">
+					<div style="text-align:center;margin:10px 0; padding:10px 0;">
+<script async="" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/adsbygoogle.js.download"></script>
+<!-- JW on Top Article -->
+<ins class="adsbygoogle" style="display:inline-block;width:336px;height:280px" data-ad-client="ca-pub-6255327593321660" data-ad-slot="9562483007" data-adsbygoogle-status="done"><ins id="aswift_0_expand" style="display:inline-table;border:none;height:280px;margin:0;padding:0;position:relative;visibility:visible;width:336px;background-color:transparent"><ins id="aswift_0_anchor" style="display:block;border:none;height:280px;margin:0;padding:0;position:relative;visibility:visible;width:336px;background-color:transparent"><iframe width="336" height="280" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}" id="aswift_0" name="aswift_0" style="left:0;position:absolute;top:0;" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/saved_resource.html"></iframe></ins></ins></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>					
+	<a id="dd_start"></a><p><strong>Cara membuat kalender dengan PHP, HTML dan CSS</strong> — Kalender / Calendar sering kita jumpai di halaman website, bahkan di CMS wordpress pun ada widget untuk menampilkan kalendar. Segitu pentingnya fungsi kalendar di sebuah website?&nbsp; kalendar juga sering kita temui di website portal yang memiliki banyak sekali berita, untuk mempermudah pengunjung mengakses berita pada tanggal tertentu biasanya di sediakan kalendar.<span id="more-162"></span></p>
+<p>Pertanyaannya bagaimanakan cara membuat kalendar itu agar dinamis? agar sistem tabel nya sesuai dengan jumlah hari pada bulan tersebut (29, 30 atau 31 hari dalam sebulan). Mari kita coba saja langsung.</p>
+<h3>Membut Fungsi di PHP</h3>
+<p>Pertama kita perlu untuk membuat sebuah fungsi dengan script PHP berdasarkan bulan dan tahun tertentu. Diawali dengan menentukan hari-hari dalam seminggu, table header, dll.</p>
+<div class="code-embed-wrapper"> <pre class=" code-embed-pre line-numbers language-php" data-start="1" data-line-offset="0" style="counter-reset: linenumber 0;"><code class=" code-embed-code language-php"><span class="token keyword">function</span> <span class="token function">draw_calendar</span><span class="token punctuation">(</span><span class="token variable">$month</span><span class="token punctuation">,</span><span class="token variable">$year</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+
+	<span class="token comment" spellcheck="true">// Draw table for Calendar </span>
+	<span class="token variable">$calendar</span> <span class="token operator">=</span> '
+<span class="token markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>table</span> <span class="token attr-name">cellpadding</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>0<span class="token punctuation">"</span></span> <span class="token attr-name">cellspacing</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>0<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>calendar<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span></span>'<span class="token punctuation">;</span>
+
+	<span class="token comment" spellcheck="true">// Draw Calendar table headings </span>
+	<span class="token variable">$headings</span> <span class="token operator">=</span> <span class="token keyword">array</span><span class="token punctuation">(</span><span class="token string">'Sunday'</span><span class="token punctuation">,</span><span class="token string">'Monday'</span><span class="token punctuation">,</span><span class="token string">'Tuesday'</span><span class="token punctuation">,</span><span class="token string">'Wednesday'</span><span class="token punctuation">,</span><span class="token string">'Thursday'</span><span class="token punctuation">,</span><span class="token string">'Friday'</span><span class="token punctuation">,</span><span class="token string">'Saturday'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token variable">$calendar</span><span class="token punctuation">.</span><span class="token operator">=</span> '
+<span class="token markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>calendar-row<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span></span>
+<span class="token markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>calendar-day-head<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span></span><span class="token string">'.implode('</span><span class="token markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span></span>
+<span class="token markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>calendar-day-head<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span></span><span class="token string">',$headings).'</span><span class="token markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span></span>
+<span class="token markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">&gt;</span></span></span>
+'<span class="token punctuation">;</span>
+
+	<span class="token comment" spellcheck="true">//days and weeks variable for now ... </span>
+	<span class="token variable">$running_day</span> <span class="token operator">=</span> <span class="token function">date</span><span class="token punctuation">(</span><span class="token string">'w'</span><span class="token punctuation">,</span><span class="token function">mktime</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token variable">$month</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token variable">$year</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token variable">$days_in_month</span> <span class="token operator">=</span> <span class="token function">date</span><span class="token punctuation">(</span><span class="token string">'t'</span><span class="token punctuation">,</span><span class="token function">mktime</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token variable">$month</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token variable">$year</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token variable">$days_in_this_week</span> <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+	<span class="token variable">$day_counter</span> <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+	<span class="token variable">$dates_array</span> <span class="token operator">=</span> <span class="token keyword">array</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+	<span class="token comment" spellcheck="true">// row for week one </span>
+	<span class="token variable">$calendar</span><span class="token punctuation">.</span><span class="token operator">=</span> '
+<span class="token markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>calendar-row<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span></span>'<span class="token punctuation">;</span>
+
+	<span class="token comment" spellcheck="true">// Display "blank" days until the first of the current week </span>
+	<span class="token keyword">for</span><span class="token punctuation">(</span><span class="token variable">$x</span> <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> <span class="token variable">$x</span> <span class="token operator">&lt;</span> <span class="token variable">$running_day</span><span class="token punctuation">;</span> <span class="token variable">$x</span><span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+		<span class="token variable">$calendar</span><span class="token punctuation">.</span><span class="token operator">=</span> '
+<span class="token markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>calendar-day-np<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span></span> <span class="token markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span></span>
+'<span class="token punctuation">;</span>
+		<span class="token variable">$days_in_this_week</span><span class="token operator">++</span><span class="token punctuation">;</span>
+	<span class="token keyword">endfor</span><span class="token punctuation">;</span>
+
+	<span class="token comment" spellcheck="true">// Show days.... </span>
+	<span class="token keyword">for</span><span class="token punctuation">(</span><span class="token variable">$list_day</span> <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span> <span class="token variable">$list_day</span> <span class="token operator">&lt;=</span> <span class="token variable">$days_in_month</span><span class="token punctuation">;</span> <span class="token variable">$list_day</span><span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+		<span class="token keyword">if</span><span class="token punctuation">(</span><span class="token variable">$list_day</span><span class="token operator">==</span><span class="token function">date</span><span class="token punctuation">(</span><span class="token string">'d'</span><span class="token punctuation">)</span> <span class="token operator">&amp;&amp;</span> <span class="token variable">$month</span><span class="token operator">==</span><span class="token function">date</span><span class="token punctuation">(</span><span class="token string">'n'</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+		<span class="token punctuation">{</span>
+			<span class="token variable">$currentday</span><span class="token operator">=</span><span class="token string">'currentday'</span><span class="token punctuation">;</span>
+		<span class="token punctuation">}</span><span class="token keyword">else</span>
+		<span class="token punctuation">{</span>
+			<span class="token variable">$currentday</span><span class="token operator">=</span><span class="token string">''</span><span class="token punctuation">;</span>
+		<span class="token punctuation">}</span>
+		<span class="token variable">$calendar</span><span class="token punctuation">.</span><span class="token operator">=</span> '
+<span class="token markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>calendar-day <span class="token punctuation">'</span>.$currentday.<span class="token punctuation">'</span><span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span></span>'<span class="token punctuation">;</span>
+		
+			<span class="token comment" spellcheck="true">// Add in the day number</span>
+			<span class="token keyword">if</span><span class="token punctuation">(</span><span class="token variable">$list_day</span><span class="token operator">&lt;</span><span class="token function">date</span><span class="token punctuation">(</span><span class="token string">'d'</span><span class="token punctuation">)</span> <span class="token operator">&amp;&amp;</span> <span class="token variable">$month</span><span class="token operator">==</span><span class="token function">date</span><span class="token punctuation">(</span><span class="token string">'n'</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+			<span class="token punctuation">{</span>
+				<span class="token variable">$showtoday</span><span class="token operator">=</span><span class="token string">'&lt;strong class="overday"&gt;'</span><span class="token punctuation">.</span><span class="token variable">$list_day</span><span class="token punctuation">.</span><span class="token string">'&lt;/strong&gt;'</span><span class="token punctuation">;</span>
+			<span class="token punctuation">}</span><span class="token keyword">else</span>
+			<span class="token punctuation">{</span>
+				<span class="token variable">$showtoday</span><span class="token operator">=</span><span class="token variable">$list_day</span><span class="token punctuation">;</span>
+			<span class="token punctuation">}</span>
+			<span class="token variable">$calendar</span><span class="token punctuation">.</span><span class="token operator">=</span> '
+<span class="token markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>day-number<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span></span><span class="token string">'.$showtoday.'</span><span class="token markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span></span>
+'<span class="token punctuation">;</span>
+
+		<span class="token comment" spellcheck="true">// Draw table end</span>
+		<span class="token variable">$calendar</span><span class="token punctuation">.</span><span class="token operator">=</span> '<span class="token markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span></span>
+'<span class="token punctuation">;</span>
+		<span class="token keyword">if</span><span class="token punctuation">(</span><span class="token variable">$running_day</span> <span class="token operator">==</span> <span class="token number">6</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+			<span class="token variable">$calendar</span><span class="token punctuation">.</span><span class="token operator">=</span> '<span class="token markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">&gt;</span></span></span>
+'<span class="token punctuation">;</span>
+			<span class="token keyword">if</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token variable">$day_counter</span><span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">)</span> <span class="token operator">!=</span> <span class="token variable">$days_in_month</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+				<span class="token variable">$calendar</span><span class="token punctuation">.</span><span class="token operator">=</span> '
+<span class="token markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>calendar-row<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span></span>'<span class="token punctuation">;</span>
+			<span class="token keyword">endif</span><span class="token punctuation">;</span>
+			<span class="token variable">$running_day</span> <span class="token operator">=</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">;</span>
+			<span class="token variable">$days_in_this_week</span> <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+		<span class="token keyword">endif</span><span class="token punctuation">;</span>
+		<span class="token variable">$days_in_this_week</span><span class="token operator">++</span><span class="token punctuation">;</span> <span class="token variable">$running_day</span><span class="token operator">++</span><span class="token punctuation">;</span> <span class="token variable">$day_counter</span><span class="token operator">++</span><span class="token punctuation">;</span>
+	<span class="token keyword">endfor</span><span class="token punctuation">;</span>
+
+	<span class="token comment" spellcheck="true">// Finish the rest of the days in the week</span>
+	<span class="token keyword">if</span><span class="token punctuation">(</span><span class="token variable">$days_in_this_week</span> <span class="token operator">&lt;</span> <span class="token number">8</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+		<span class="token keyword">for</span><span class="token punctuation">(</span><span class="token variable">$x</span> <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span> <span class="token variable">$x</span> <span class="token operator">&lt;=</span> <span class="token punctuation">(</span><span class="token number">8</span> <span class="token operator">-</span> <span class="token variable">$days_in_this_week</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token variable">$x</span><span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+			<span class="token variable">$calendar</span><span class="token punctuation">.</span><span class="token operator">=</span> '
+<span class="token markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>calendar-day-np<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span></span> <span class="token markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span></span>
+'<span class="token punctuation">;</span>
+		<span class="token keyword">endfor</span><span class="token punctuation">;</span>
+	<span class="token keyword">endif</span><span class="token punctuation">;</span>
+
+	<span class="token comment" spellcheck="true">// Draw table final row</span>
+	<span class="token variable">$calendar</span><span class="token punctuation">.</span><span class="token operator">=</span> '<span class="token markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">&gt;</span></span></span>
+'<span class="token punctuation">;</span>
+
+	<span class="token comment" spellcheck="true">// Draw table end the table </span>
+	<span class="token variable">$calendar</span><span class="token punctuation">.</span><span class="token operator">=</span> '<span class="token markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>table</span><span class="token punctuation">&gt;</span></span></span>
+'<span class="token punctuation">;</span>
+	
+	<span class="token comment" spellcheck="true">// Finally all done, return result </span>
+	<span class="token keyword">return</span> <span class="token variable">$calendar</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre> <div class="code-embed-infos"> </div> </div>
+<p>Fungsi diatas digunakan untuk meng-generate tabel pada bulan tertentu sesuai dengan yang kita inginkan.</p>
+<p><strong>Cara Menggunakan Fungsi tersebut adalah seperti berikut</strong></p>
+<div class="code-embed-wrapper"> <pre class=" code-embed-pre line-numbers language-php" data-start="1" data-line-offset="0" style="counter-reset: linenumber 0;"><code class=" code-embed-code language-php"><span class="token keyword">echo</span> '
+<span class="token markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h2</span><span class="token punctuation">&gt;</span></span></span>Juli <span class="token number">2013</span><span class="token markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h2</span><span class="token punctuation">&gt;</span></span></span>
+'<span class="token punctuation">;</span>
+<span class="token keyword">echo</span> <span class="token function">draw_calendar</span><span class="token punctuation">(</span><span class="token number">7</span><span class="token punctuation">,</span><span class="token number">2013</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre> <div class="code-embed-infos"> </div> </div>
+<p>Jika dijalankan maka akan terbentuk kalender seperti berikut (bulan juni, 2014)</p>
+<!-- start -->
+		<div class="pedia-adpost" style="text-align:center; padding:25px 0; margin:10px 0;">
+			<script async="" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/adsbygoogle.js.download"></script>
+<!-- JW Inside Content -->
+<ins class="adsbygoogle" style="display:inline-block;width:336px;height:280px" data-ad-client="ca-pub-6255327593321660" data-ad-slot="5132283401" data-adsbygoogle-status="done"><ins id="aswift_1_expand" style="display:inline-table;border:none;height:280px;margin:0;padding:0;position:relative;visibility:visible;width:336px;background-color:transparent"><ins id="aswift_1_anchor" style="display:block;border:none;height:280px;margin:0;padding:0;position:relative;visibility:visible;width:336px;background-color:transparent"><iframe width="336" height="280" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}" id="aswift_1" name="aswift_1" style="left:0;position:absolute;top:0;" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/saved_resource(1).html"></iframe></ins></ins></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>		</div>
+<!-- end -->
+
+	
+<p><a href="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/kalender.jpg"><img class="alignnone size-full wp-image-163" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/kalender.jpg" alt="Kalender PHP" width="429" height="243" srcset="http://www.jurnalweb.com/wp-content/uploads/2014/07/kalender.jpg 429w, http://www.jurnalweb.com/wp-content/uploads/2014/07/kalender-300x169.jpg 300w" sizes="(max-width: 429px) 100vw, 429px"></a></p>
+<p>Agar tampilan lebih bagus anda bisa mempercantik tabel tersebut dengan CSS, agar lebih mudah, di fungsi PHP tadi sudah di tentukan nama-nama class nya.</p>
+<p><strong>Percantik Dengan CSS</strong></p>
+<div class="code-embed-wrapper"> <pre class=" code-embed-pre line-numbers language-css" data-start="1" data-line-offset="0" style="counter-reset: linenumber 0;"><code class=" code-embed-code language-css"><span class="token atrule"><span class="token rule">@charset</span> <span class="token string">"utf-8"</span><span class="token punctuation">;</span></span>
+<span class="token comment" spellcheck="true">/* CSS Document */</span>
+<span class="token selector">html,body,form</span><span class="token punctuation">{</span> <span class="token property">margin</span><span class="token punctuation">:</span><span class="token number">0</span>px<span class="token punctuation">;</span> <span class="token property">padding</span><span class="token punctuation">:</span><span class="token number">0</span>px<span class="token punctuation">;</span> <span class="token property">font-family</span><span class="token punctuation">:</span>Ebrima, Arial, Helvetica, sans-serif<span class="token punctuation">;</span> <span class="token property">font-size</span><span class="token punctuation">:</span><span class="token number">12</span>px<span class="token punctuation">;</span> <span class="token property">color</span><span class="token punctuation">:</span><span class="token hexcode">#666</span><span class="token punctuation">;</span> <span class="token property">empty-cells</span><span class="token punctuation">:</span>hide<span class="token punctuation">;</span><span class="token punctuation">}</span>
+<span class="token selector">table<span class="token class">.calendar</span></span><span class="token punctuation">{</span><span class="token property">border-style</span><span class="token punctuation">:</span> solid<span class="token punctuation">;</span> <span class="token property">border-width</span><span class="token punctuation">:</span> <span class="token number">1</span>px<span class="token punctuation">;</span> <span class="token property">border-width</span><span class="token punctuation">:</span><span class="token number">1</span>px<span class="token punctuation">;</span> <span class="token property">border-color</span><span class="token punctuation">:</span><span class="token hexcode">#666</span><span class="token punctuation">;</span> <span class="token property">-moz-box-shadow</span><span class="token punctuation">:</span><span class="token number">0</span>px <span class="token number">0</span>px <span class="token number">4</span>px <span class="token hexcode">#CCCCCC</span><span class="token punctuation">;</span> <span class="token property">-webkit-box-shadow</span><span class="token punctuation">:</span><span class="token number">0</span>px <span class="token number">0</span>px <span class="token number">4</span>px <span class="token hexcode">#CCCCCC</span><span class="token punctuation">;</span> <span class="token property">box-shadow</span><span class="token punctuation">:</span><span class="token number">0</span>px <span class="token number">0</span>px <span class="token number">4</span>px <span class="token hexcode">#CCCCCC</span><span class="token punctuation">;</span> <span class="token punctuation">}</span>
+<span class="token selector">tr<span class="token class">.calendar-row</span>  </span><span class="token punctuation">{</span>  <span class="token punctuation">}</span>
+<span class="token selector">td<span class="token class">.calendar-day</span>  </span><span class="token punctuation">{</span> <span class="token property">min-height</span><span class="token punctuation">:</span><span class="token number">80</span>px<span class="token punctuation">;</span> <span class="token property">position</span><span class="token punctuation">:</span>relative<span class="token punctuation">;</span> <span class="token punctuation">}</span> <span class="token selector">* html div<span class="token class">.calendar-day</span> </span><span class="token punctuation">{</span> <span class="token property">height</span><span class="token punctuation">:</span><span class="token number">80</span>px<span class="token punctuation">;</span> <span class="token punctuation">}</span>
+<span class="token selector">td<span class="token class">.calendar-day</span><span class="token pseudo-class">:hover</span>  </span><span class="token punctuation">{</span> <span class="token property">background</span><span class="token punctuation">:</span><span class="token hexcode">#FFF</span><span class="token punctuation">;</span> <span class="token property">-moz-box-shadow</span><span class="token punctuation">:</span><span class="token number">0</span>px <span class="token number">0</span>px <span class="token number">20</span>px <span class="token hexcode">#eeeeee</span> inset<span class="token punctuation">;</span> <span class="token property">-webkit-box-shadow</span><span class="token punctuation">:</span><span class="token number">0</span>px <span class="token number">0</span>px <span class="token number">20</span>px <span class="token hexcode">#eeeeee</span> inset<span class="token punctuation">;</span> <span class="token property">box-shadow</span><span class="token punctuation">:</span><span class="token number">0</span>px <span class="token number">0</span>px <span class="token number">20</span>px <span class="token hexcode">#eeeeee</span> inset<span class="token punctuation">;</span> <span class="token property">cursor</span><span class="token punctuation">:</span>pointer<span class="token punctuation">;</span><span class="token punctuation">}</span>
+<span class="token selector">td<span class="token class">.calendar-day-np</span>  </span><span class="token punctuation">{</span> <span class="token property">background</span><span class="token punctuation">:</span><span class="token hexcode">#eee</span><span class="token punctuation">;</span> <span class="token property">min-height</span><span class="token punctuation">:</span><span class="token number">80</span>px<span class="token punctuation">;</span> <span class="token punctuation">}</span> <span class="token selector">* html div<span class="token class">.calendar-day-np</span> </span><span class="token punctuation">{</span> <span class="token property">height</span><span class="token punctuation">:</span><span class="token number">80</span>px<span class="token punctuation">;</span> <span class="token punctuation">}</span>
+<span class="token selector">td<span class="token class">.calendar-day-head</span> </span><span class="token punctuation">{</span><span class="token property">font-weight</span><span class="token punctuation">:</span>bold<span class="token punctuation">;</span> <span class="token property">text-shadow</span><span class="token punctuation">:</span><span class="token number">0</span>px <span class="token number">1</span>px <span class="token number">0</span>px <span class="token hexcode">#FFF</span><span class="token punctuation">;</span><span class="token property">color</span><span class="token punctuation">:</span><span class="token hexcode">#666</span><span class="token punctuation">;</span> <span class="token property">text-align</span><span class="token punctuation">:</span>center<span class="token punctuation">;</span> <span class="token property">width</span><span class="token punctuation">:</span><span class="token number">64</span>px<span class="token punctuation">;</span> <span class="token property">padding</span><span class="token punctuation">:</span><span class="token number">12</span>px <span class="token number">6</span>px<span class="token punctuation">;</span> <span class="token property">border-bottom</span><span class="token punctuation">:</span><span class="token number">1</span>px solid <span class="token hexcode">#CCC</span><span class="token punctuation">;</span> <span class="token property">border-top</span><span class="token punctuation">:</span><span class="token number">1</span>px solid <span class="token hexcode">#CCC</span><span class="token punctuation">;</span> <span class="token property">border-right</span><span class="token punctuation">:</span><span class="token number">1</span>px solid <span class="token hexcode">#CCC</span><span class="token punctuation">;</span> <span class="token property">background</span><span class="token punctuation">:</span> <span class="token hexcode">#ffffff</span><span class="token punctuation">;</span>
+<span class="token property">background</span><span class="token punctuation">:</span> <span class="token function">-moz-linear-gradient</span><span class="token punctuation">(</span>top,  <span class="token hexcode">#ffffff</span> <span class="token number">0%</span>, <span class="token hexcode">#ededed</span> <span class="token number">100%</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token property">background</span><span class="token punctuation">:</span> <span class="token function">-webkit-gradient</span><span class="token punctuation">(</span>linear, left top, left bottom, <span class="token function">color-stop</span><span class="token punctuation">(</span><span class="token number">0%</span>,<span class="token hexcode">#ffffff</span><span class="token punctuation">)</span>, <span class="token function">color-stop</span><span class="token punctuation">(</span><span class="token number">100%</span>,<span class="token hexcode">#ededed</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token property">background</span><span class="token punctuation">:</span> <span class="token function">-webkit-linear-gradient</span><span class="token punctuation">(</span>top,  <span class="token hexcode">#ffffff</span> <span class="token number">0%</span>,<span class="token hexcode">#ededed</span> <span class="token number">100%</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token property">background</span><span class="token punctuation">:</span> <span class="token function">-o-linear-gradient</span><span class="token punctuation">(</span>top,  <span class="token hexcode">#ffffff</span> <span class="token number">0%</span>,<span class="token hexcode">#ededed</span> <span class="token number">100%</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token property">background</span><span class="token punctuation">:</span> <span class="token function">-ms-linear-gradient</span><span class="token punctuation">(</span>top,  <span class="token hexcode">#ffffff</span> <span class="token number">0%</span>,<span class="token hexcode">#ededed</span> <span class="token number">100%</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token property">background</span><span class="token punctuation">:</span> <span class="token function">linear-gradient</span><span class="token punctuation">(</span>to bottom,  <span class="token hexcode">#ffffff</span> <span class="token number">0%</span>,<span class="token hexcode">#ededed</span> <span class="token number">100%</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token property">filter</span><span class="token punctuation">:</span> <span class="token property">progid</span><span class="token punctuation">:</span>DXImageTransform<span class="token number">.</span>Microsoft<span class="token number">.</span><span class="token function">gradient</span><span class="token punctuation">(</span> startColorstr=<span class="token string">'#ffffff'</span>, endColorstr=<span class="token string">'#ededed'</span>,GradientType=<span class="token number">0</span> <span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">div<span class="token class">.day-number</span></span><span class="token punctuation">{</span><span class="token property">padding</span><span class="token punctuation">:</span><span class="token number">6</span>px<span class="token punctuation">;</span> <span class="token property">text-align</span><span class="token punctuation">:</span>center<span class="token punctuation">;</span> <span class="token punctuation">}</span>
+<span class="token comment" spellcheck="true">/* shared */</span>
+<span class="token selector">td<span class="token class">.calendar-day</span>, td<span class="token class">.calendar-day-np</span> </span><span class="token punctuation">{</span><span class="token property">padding</span><span class="token punctuation">:</span><span class="token number">5</span>px<span class="token punctuation">;</span> <span class="token property">border-bottom</span><span class="token punctuation">:</span><span class="token number">1</span>px solid <span class="token hexcode">#DBDBDB</span><span class="token punctuation">;</span> <span class="token property">border-right</span><span class="token punctuation">:</span><span class="token number">1</span>px solid <span class="token hexcode">#DBDBDB</span><span class="token punctuation">;</span> <span class="token property">font-size</span><span class="token punctuation">:</span><span class="token number">14</span>px<span class="token punctuation">;</span><span class="token property">background</span><span class="token punctuation">:</span> <span class="token hexcode">#ffffff</span><span class="token punctuation">;</span>
+<span class="token property">background</span><span class="token punctuation">:</span> <span class="token function">-moz-linear-gradient</span><span class="token punctuation">(</span>top,  <span class="token hexcode">#ffffff</span> <span class="token number">0%</span>, <span class="token hexcode">#f2f2f2</span> <span class="token number">100%</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token property">background</span><span class="token punctuation">:</span> <span class="token function">-webkit-gradient</span><span class="token punctuation">(</span>linear, left top, left bottom, <span class="token function">color-stop</span><span class="token punctuation">(</span><span class="token number">0%</span>,<span class="token hexcode">#ffffff</span><span class="token punctuation">)</span>, <span class="token function">color-stop</span><span class="token punctuation">(</span><span class="token number">100%</span>,<span class="token hexcode">#f2f2f2</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token property">background</span><span class="token punctuation">:</span> <span class="token function">-webkit-linear-gradient</span><span class="token punctuation">(</span>top,  <span class="token hexcode">#ffffff</span> <span class="token number">0%</span>,<span class="token hexcode">#f2f2f2</span> <span class="token number">100%</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token property">background</span><span class="token punctuation">:</span> <span class="token function">-o-linear-gradient</span><span class="token punctuation">(</span>top,  <span class="token hexcode">#ffffff</span> <span class="token number">0%</span>,<span class="token hexcode">#f2f2f2</span> <span class="token number">100%</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token property">background</span><span class="token punctuation">:</span> <span class="token function">-ms-linear-gradient</span><span class="token punctuation">(</span>top,  <span class="token hexcode">#ffffff</span> <span class="token number">0%</span>,<span class="token hexcode">#f2f2f2</span> <span class="token number">100%</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token property">background</span><span class="token punctuation">:</span> <span class="token function">linear-gradient</span><span class="token punctuation">(</span>to bottom,  <span class="token hexcode">#ffffff</span> <span class="token number">0%</span>,<span class="token hexcode">#f2f2f2</span> <span class="token number">100%</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token property">filter</span><span class="token punctuation">:</span> <span class="token property">progid</span><span class="token punctuation">:</span>DXImageTransform<span class="token number">.</span>Microsoft<span class="token number">.</span><span class="token function">gradient</span><span class="token punctuation">(</span> startColorstr=<span class="token string">'#ffffff'</span>, endColorstr=<span class="token string">'#f2f2f2'</span>,GradientType=<span class="token number">0</span> <span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+
+<span class="token selector"><span class="token class">.overday</span></span><span class="token punctuation">{</span> <span class="token property">color</span><span class="token punctuation">:</span><span class="token hexcode">#164b87</span><span class="token punctuation">;</span> <span class="token property">text-shadow</span><span class="token punctuation">:</span><span class="token number">0</span>px <span class="token number">1</span>px <span class="token number">0</span>px <span class="token hexcode">#FFF</span><span class="token punctuation">;</span><span class="token punctuation">}</span>
+<span class="token selector"><span class="token class">.currentday</span></span><span class="token punctuation">{</span><span class="token property">background</span><span class="token punctuation">:</span> <span class="token hexcode">#6cb7f3</span> <span class="token important">!important</span><span class="token punctuation">;</span>
+<span class="token property">background</span><span class="token punctuation">:</span> <span class="token function">-moz-linear-gradient</span><span class="token punctuation">(</span>top,  <span class="token hexcode">#6cb7f3</span> <span class="token number">0%</span>, <span class="token hexcode">#388be8</span> <span class="token number">100%</span><span class="token punctuation">)</span> <span class="token important">!important</span><span class="token punctuation">;</span>
+<span class="token property">background</span><span class="token punctuation">:</span> <span class="token function">-webkit-gradient</span><span class="token punctuation">(</span>linear, left top, left bottom, <span class="token function">color-stop</span><span class="token punctuation">(</span><span class="token number">0%</span>,<span class="token hexcode">#6cb7f3</span><span class="token punctuation">)</span>, <span class="token function">color-stop</span><span class="token punctuation">(</span><span class="token number">100%</span>,<span class="token hexcode">#388be8</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token important">!important</span><span class="token punctuation">;</span>
+<span class="token property">background</span><span class="token punctuation">:</span> <span class="token function">-webkit-linear-gradient</span><span class="token punctuation">(</span>top,  <span class="token hexcode">#6cb7f3</span> <span class="token number">0%</span>,<span class="token hexcode">#388be8</span> <span class="token number">100%</span><span class="token punctuation">)</span> <span class="token important">!important</span><span class="token punctuation">;</span>
+<span class="token property">background</span><span class="token punctuation">:</span> <span class="token function">-o-linear-gradient</span><span class="token punctuation">(</span>top,  <span class="token hexcode">#6cb7f3</span> <span class="token number">0%</span>,<span class="token hexcode">#388be8</span> <span class="token number">100%</span><span class="token punctuation">)</span> <span class="token important">!important</span><span class="token punctuation">;</span>
+<span class="token property">background</span><span class="token punctuation">:</span> <span class="token function">-ms-linear-gradient</span><span class="token punctuation">(</span>top,  <span class="token hexcode">#6cb7f3</span> <span class="token number">0%</span>,<span class="token hexcode">#388be8</span> <span class="token number">100%</span><span class="token punctuation">)</span> <span class="token important">!important</span><span class="token punctuation">;</span>
+<span class="token property">background</span><span class="token punctuation">:</span> <span class="token function">linear-gradient</span><span class="token punctuation">(</span>to bottom,  <span class="token hexcode">#6cb7f3</span> <span class="token number">0%</span>,<span class="token hexcode">#388be8</span> <span class="token number">100%</span><span class="token punctuation">)</span> <span class="token important">!important</span><span class="token punctuation">;</span>
+<span class="token property">filter</span><span class="token punctuation">:</span> <span class="token property">progid</span><span class="token punctuation">:</span>DXImageTransform<span class="token number">.</span>Microsoft<span class="token number">.</span><span class="token function">gradient</span><span class="token punctuation">(</span> startColorstr=<span class="token string">'#6cb7f3'</span>, endColorstr=<span class="token string">'#388be8'</span>,GradientType=<span class="token number">0</span> <span class="token punctuation">)</span> <span class="token important">!important</span><span class="token punctuation">;</span> <span class="token property">color</span><span class="token punctuation">:</span><span class="token hexcode">#FFF</span>  <span class="token important">!important</span><span class="token punctuation">;</span> <span class="token property">font-weight</span><span class="token punctuation">:</span>bold<span class="token punctuation">;</span> <span class="token property">-moz-box-shadow</span><span class="token punctuation">:</span><span class="token number">0</span>px <span class="token number">0</span>px <span class="token number">18</span>px <span class="token hexcode">#1F68BA</span> inset<span class="token punctuation">;</span> <span class="token property">-webkit-box-shadow</span><span class="token punctuation">:</span><span class="token number">0</span>px <span class="token number">0</span>px <span class="token number">18</span>px <span class="token hexcode">#1F68BA</span> inset<span class="token punctuation">;</span> <span class="token property">box-shadow</span><span class="token punctuation">:</span><span class="token number">0</span>px <span class="token number">0</span>px <span class="token number">18</span>px <span class="token hexcode">#1F68BA</span> inset<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector"><span class="token class">.currentday</span><span class="token pseudo-class">:hover</span></span><span class="token punctuation">{</span><span class="token property">-moz-box-shadow</span><span class="token punctuation">:</span><span class="token number">0</span>px <span class="token number">0</span>px <span class="token number">24</span>px <span class="token hexcode">#074080</span> inset <span class="token important">!important</span><span class="token punctuation">;</span> <span class="token property">-webkit-box-shadow</span><span class="token punctuation">:</span><span class="token number">0</span>px <span class="token number">0</span>px <span class="token number">24</span>px <span class="token hexcode">#074080</span> inset <span class="token important">!important</span><span class="token punctuation">;</span> <span class="token property">box-shadow</span><span class="token punctuation">:</span><span class="token number">0</span>px <span class="token number">0</span>px <span class="token number">24</span>px <span class="token hexcode">#074080</span> inset <span class="token important">!important</span><span class="token punctuation">;</span><span class="token punctuation">}</span><span class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre> <div class="code-embed-infos"> </div> </div>
+<p>Hasilnya adalah sebagai berikut</p>
+<p><a href="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/kalender-php-html-css.jpg"><img class="alignnone size-full wp-image-168" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/kalender-php-html-css.jpg" alt="kalender php html css" width="684" height="298" srcset="http://www.jurnalweb.com/wp-content/uploads/2014/07/kalender-php-html-css.jpg 684w, http://www.jurnalweb.com/wp-content/uploads/2014/07/kalender-php-html-css-300x130.jpg 300w" sizes="(max-width: 684px) 100vw, 684px"></a></p>
+<p><strong>Sekian</strong></p>
+<p>Sekian tutorial membuat tabel dengan PHP, HTML dan CSS kali ini, semoga berguna untuk anda. Jika anda ingin mencoba silahkan download langsung di Github berikut ini</p>
+<p><strong><a title="Download Script" href="https://github.com/tutweb/Kalender-Dengan-PHP--HTML--CSS" target="_blank">Download Script</a> | <a title="Demo Kalender" href="http://www.jurnalweb.com/demo/calendar.php">Demo</a></strong></p>
+<p>Salam, sampai jumpa di artikel berikutnya dari <a title="Tutorial Website" href="http://www.jurnalweb.com/">JurnalWeb.com</a></p>
+<a id="dd_end"></a><script type="text/javascript">var dd_offset_from_content = 40;var dd_top_offset_from_content = 0;var dd_override_start_anchor_id = "";var dd_override_top_offset = "";</script><script type="text/javascript" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/diggdigg-floating-bar.js.download"></script><script type="text/javascript"> jQuery(document).ready(function($) { window.setTimeout('loadTwitter_162()',1000);window.setTimeout('loadFBShare_162()',1000);window.setTimeout('loadGoogle1_162()',1000); }); </script><script type="text/javascript"> function loadTwitter_162(){ jQuery(document).ready(function($) { $('.dd-twitter-162').remove();$.getScript('http://platform.twitter.com/widgets.js'); }); } function loadFBShare_162(){ jQuery(document).ready(function($) { $('.dd-fbshare-162').remove(); $.getScript('http://static.ak.fbcdn.net/connect.php/js/FB.Share'); }); } function loadGoogle1_162(){ jQuery(document).ready(function($) { $('.dd-google1-162').remove();$.getScript('https://apis.google.com/js/plusone.js'); }); }</script><p></p><div style="text-align:center; padding:20px 0;"><script async="" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/adsbygoogle.js.download"></script>
+<!-- JW After Content Square -->
+<ins class="adsbygoogle" style="display:inline-block;width:336px;height:280px" data-ad-client="ca-pub-6255327593321660" data-ad-slot="7011775005" data-adsbygoogle-status="done"><ins id="aswift_2_expand" style="display:inline-table;border:none;height:280px;margin:0;padding:0;position:relative;visibility:visible;width:336px;background-color:transparent"><ins id="aswift_2_anchor" style="display:block;border:none;height:280px;margin:0;padding:0;position:relative;visibility:visible;width:336px;background-color:transparent"><iframe width="336" height="280" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}" id="aswift_2" name="aswift_2" style="left:0;position:absolute;top:0;" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/saved_resource(2).html"></iframe></ins></ins></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div><div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-official sd-sharing"><h3 class="sd-title">Bagikan:</h3><div class="sd-content"><ul><li class="share-facebook"><div class="fb-share-button fb_iframe_widget" data-href="http://www.jurnalweb.com/tutorial-cara-membuat-kalender-dengan-php-html-dan-css/" data-layout="button_count" fb-xfbml-state="rendered" fb-iframe-plugin-query="app_id=&amp;container_width=0&amp;href=http%3A%2F%2Fwww.jurnalweb.com%2Ftutorial-cara-membuat-kalender-dengan-php-html-dan-css%2F&amp;layout=button_count&amp;locale=en_US&amp;sdk=joey"><span style="vertical-align: bottom; width: 80px; height: 20px;"><iframe name="f131fb6472cfd7" width="1000px" height="1000px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" title="fb:share_button Facebook Social Plugin" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/share_button.html" style="border: none; visibility: visible; width: 80px; height: 20px;" class=""></iframe></span></div></li><li class="share-twitter"><iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" class="twitter-share-button twitter-share-button-rendered twitter-tweet-button" title="Twitter Tweet Button" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/tweet_button.89bd237a86eeb0e8b1de842a4b88b09b.en.html" style="position: static; visibility: visible; width: 60px; height: 20px;" data-url="http://www.jurnalweb.com/tutorial-cara-membuat-kalender-dengan-php-html-dan-css/"></iframe></li><li class="share-google-plus-1"><div class="googleplus1_button"><div class="g-plus" data-action="share" data-annotation="bubble" data-href="http://www.jurnalweb.com/tutorial-cara-membuat-kalender-dengan-php-html-dan-css/" id="___plusone_0" style="text-indent: 0px; margin: 0px; padding: 0px; background: transparent; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; display: inline-block; width: 106px; height: 24px;"><iframe ng-non-bindable="" frameborder="0" hspace="0" marginheight="0" marginwidth="0" scrolling="no" style="position: static; top: 0px; width: 106px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 24px;" tabindex="0" vspace="0" width="100%" id="I0_1490846012786" name="I0_1490846012786" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/fastbutton.html" data-gapiattached="true" title="+1"></iframe></div></div></li><li class="share-end"></li></ul></div></div></div><div class="yarpp-related">
+<h3>Artikel Lain:</h3>
+<div class="yarpp-thumbnails-horizontal">
+<a class="yarpp-thumbnail" href="http://www.jurnalweb.com/menampilkan-isi-file-txt-dengan-php/" title="Menampilkan Isi File TXT Dengan PHP">
+<img width="200" height="80" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/menampilkan-isi-file-txt-dengan-php.jpg" class="attachment-yarpp-thumbnail size-yarpp-thumbnail wp-post-image" alt="Menampilkan isi file txt dengan php" srcset="http://www.jurnalweb.com/wp-content/uploads/2014/08/menampilkan-isi-file-txt-dengan-php.jpg 520w, http://www.jurnalweb.com/wp-content/uploads/2014/08/menampilkan-isi-file-txt-dengan-php-300x120.jpg 300w" sizes="(max-width: 200px) 100vw, 200px"><span class="yarpp-thumbnail-title">Menampilkan Isi File TXT Dengan PHP</span></a>
+<a class="yarpp-thumbnail" href="http://www.jurnalweb.com/cara-mendapatkan-dan-menampilkan-email-dari-gmail-dengan-php/" title="Cara Mendapatkan dan Menampilkan Email dari GMAIL dengan PHP">
+<img width="200" height="112" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/gmail.png" class="attachment-yarpp-thumbnail size-yarpp-thumbnail wp-post-image" alt="" srcset="http://www.jurnalweb.com/wp-content/uploads/2014/05/gmail.png 602w, http://www.jurnalweb.com/wp-content/uploads/2014/05/gmail-300x167.png 300w" sizes="(max-width: 200px) 100vw, 200px"><span class="yarpp-thumbnail-title">Cara Mendapatkan dan Menampilkan Email dari GMAIL dengan PHP</span></a>
+<a class="yarpp-thumbnail" href="http://www.jurnalweb.com/cara-mengirim-email-dengan-php/" title="Cara Mengirim Email Dengan PHP">
+<img width="200" height="133" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/mail-php.jpg" class="attachment-yarpp-thumbnail size-yarpp-thumbnail wp-post-image" alt="Mail PHP" srcset="http://www.jurnalweb.com/wp-content/uploads/2014/07/mail-php.jpg 640w, http://www.jurnalweb.com/wp-content/uploads/2014/07/mail-php-300x200.jpg 300w" sizes="(max-width: 200px) 100vw, 200px"><span class="yarpp-thumbnail-title">Cara Mengirim Email Dengan PHP</span></a>
+<a class="yarpp-thumbnail" href="http://www.jurnalweb.com/cara-mengetahui-nama-negara-ip-address-dengan-php/" title="Cara Mengetahui Nama Negara Sebuah IP Address Dengan PHP">
+<img width="200" height="75" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/ip-address.png" class="attachment-yarpp-thumbnail size-yarpp-thumbnail wp-post-image" alt="ip address" srcset="http://www.jurnalweb.com/wp-content/uploads/2014/08/ip-address.png 965w, http://www.jurnalweb.com/wp-content/uploads/2014/08/ip-address-300x112.png 300w" sizes="(max-width: 200px) 100vw, 200px"><span class="yarpp-thumbnail-title">Cara Mengetahui Nama Negara Sebuah IP Address Dengan PHP</span></a>
+<a class="yarpp-thumbnail" href="http://www.jurnalweb.com/mengambil-data-open-graph-meta-tag-facebook-dengan-php/" title="Mengambil Data Open Graph Meta Tag Facebook Dengan PHP">
+<img width="200" height="101" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/opengraph-demo.jpg" class="attachment-yarpp-thumbnail size-yarpp-thumbnail wp-post-image" alt="open graph demo" srcset="http://www.jurnalweb.com/wp-content/uploads/2014/09/opengraph-demo.jpg 800w, http://www.jurnalweb.com/wp-content/uploads/2014/09/opengraph-demo-300x151.jpg 300w" sizes="(max-width: 200px) 100vw, 200px"><span class="yarpp-thumbnail-title">Mengambil Data Open Graph Meta Tag Facebook Dengan PHP</span></a>
+<a class="yarpp-thumbnail" href="http://www.jurnalweb.com/membuat-string-random-di-php/" title="Membuat String Random di PHP">
+<img width="200" height="113" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/Random-String.jpg" class="attachment-yarpp-thumbnail size-yarpp-thumbnail wp-post-image" alt="Random String" srcset="http://www.jurnalweb.com/wp-content/uploads/2014/07/Random-String.jpg 890w, http://www.jurnalweb.com/wp-content/uploads/2014/07/Random-String-300x169.jpg 300w" sizes="(max-width: 200px) 100vw, 200px"><span class="yarpp-thumbnail-title">Membuat String Random di PHP</span></a>
+<a class="yarpp-thumbnail" href="http://www.jurnalweb.com/cara-menampilkan-postingan-wordpress-di-halaman-web-php/" title="Cara Menampilkan Postingan WordPress di Halaman Web PHP">
+<img width="200" height="88" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/php-wordpress.jpg" class="attachment-yarpp-thumbnail size-yarpp-thumbnail wp-post-image" alt="php wordpress" srcset="http://www.jurnalweb.com/wp-content/uploads/2015/09/php-wordpress.jpg 640w, http://www.jurnalweb.com/wp-content/uploads/2015/09/php-wordpress-300x131.jpg 300w" sizes="(max-width: 200px) 100vw, 200px"><span class="yarpp-thumbnail-title">Cara Menampilkan Postingan WordPress di Halaman Web PHP</span></a>
+<a class="yarpp-thumbnail" href="http://www.jurnalweb.com/cara-membuat-tabel-mysql-dengan-php/" title="Cara Membuat Tabel MySQL dengan PHP">
+<img width="200" height="112" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/php-mysql-database-tutorial-2.jpg" class="attachment-yarpp-thumbnail size-yarpp-thumbnail wp-post-image" alt="php mysql database tutorial 2" srcset="http://www.jurnalweb.com/wp-content/uploads/2015/09/php-mysql-database-tutorial-2.jpg 640w, http://www.jurnalweb.com/wp-content/uploads/2015/09/php-mysql-database-tutorial-2-300x168.jpg 300w" sizes="(max-width: 200px) 100vw, 200px"><span class="yarpp-thumbnail-title">Cara Membuat Tabel MySQL dengan PHP</span></a>
+<a class="yarpp-thumbnail" href="http://www.jurnalweb.com/mengetahui-jumlah-like-facebook-page-dengan-php/" title="Cara Mengetahui Jumlah Like Facebook Page dengan PHP">
+<img width="200" height="104" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/facebook-like-count.jpg" class="attachment-yarpp-thumbnail size-yarpp-thumbnail wp-post-image" alt="facebook like count" srcset="http://www.jurnalweb.com/wp-content/uploads/2015/08/facebook-like-count.jpg 610w, http://www.jurnalweb.com/wp-content/uploads/2015/08/facebook-like-count-300x156.jpg 300w" sizes="(max-width: 200px) 100vw, 200px"><span class="yarpp-thumbnail-title">Cara Mengetahui Jumlah Like Facebook Page dengan PHP</span></a>
+<a class="yarpp-thumbnail" href="http://www.jurnalweb.com/jepret-foto-rekam-suara-video-di-hp-upload-dengan-php/" title="Jepret Foto, Rekam Suara &amp; Video di HP + Upload Dengan PHP">
+<img width="200" height="117" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/HTML-Media-Capture.png" class="attachment-yarpp-thumbnail size-yarpp-thumbnail wp-post-image" alt="HTML Media Capture" srcset="http://www.jurnalweb.com/wp-content/uploads/2014/03/HTML-Media-Capture.png 645w, http://www.jurnalweb.com/wp-content/uploads/2014/03/HTML-Media-Capture-300x175.png 300w" sizes="(max-width: 200px) 100vw, 200px"><span class="yarpp-thumbnail-title">Jepret Foto, Rekam Suara &amp; Video di HP + Upload Dengan PHP</span></a>
+<a class="yarpp-thumbnail" href="http://www.jurnalweb.com/cara-membuat-file-dan-folder-dengan-php/" title="Cara Membuat File dan Folder Dengan PHP">
+<img width="200" height="84" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/folder-and-file-php.jpg" class="attachment-yarpp-thumbnail size-yarpp-thumbnail wp-post-image" alt="Folder and File di PHP" srcset="http://www.jurnalweb.com/wp-content/uploads/2014/07/folder-and-file-php.jpg 620w, http://www.jurnalweb.com/wp-content/uploads/2014/07/folder-and-file-php-300x125.jpg 300w" sizes="(max-width: 200px) 100vw, 200px"><span class="yarpp-thumbnail-title">Cara Membuat File dan Folder Dengan PHP</span></a>
+<a class="yarpp-thumbnail" href="http://www.jurnalweb.com/tutorial-cara-membuat-contact-form-dengan-php/" title="Tutorial Cara Membuat Contact Form dengan PHP Terkirim ke Email">
+<img width="200" height="140" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/contact-form-200x140.jpg" class="attachment-yarpp-thumbnail size-yarpp-thumbnail wp-post-image" alt="Contact Form"><span class="yarpp-thumbnail-title">Tutorial Cara Membuat Contact Form dengan PHP Terkirim ke Email</span></a>
+</div>
+</div>
+<p></p>										
+				</div>
+				
+				<div class="post-tags">
+					<a href="http://www.jurnalweb.com/content/css/" rel="tag">CSS</a> <a href="http://www.jurnalweb.com/content/html/" rel="tag">HTML</a> <a href="http://www.jurnalweb.com/content/kalender-php/" rel="tag">Kalender PHP</a> <a href="http://www.jurnalweb.com/content/membuat-kalender/" rel="tag">Membuat Kalender</a> <a href="http://www.jurnalweb.com/content/php/" rel="tag">PHP</a> <a href="http://www.jurnalweb.com/content/php-calendar/" rel="tag">PHP Calendar</a> <a href="http://www.jurnalweb.com/content/tutorial-php/" rel="tag">Tutorial PHP</a> <a href="http://www.jurnalweb.com/content/web-development/" rel="tag">Web Development</a> <a href="http://www.jurnalweb.com/content/web-programming/" rel="tag">Web Programming</a><br>				</div>
+
+				<div class="post-edit-link">
+									</div>
+				
+				<div class="post-comment">
+					
+<div id="comments" class="comments-area">
+<h3>Comments</h3>
+
+	
+			<strong class="comments-title">
+			18 total comments on “<span>Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS</span>”		</strong>
+
+		<ol class="commentlist">
+			    <li class="comment even thread-even depth-1 parent" id="comment-116">
+        <div id="div-comment-116" class="comment-body">
+        <div class="comment-author vcard">
+    <img alt="" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/d57131be95dd9611131d282a7281d52c" srcset="http://1.gravatar.com/avatar/d57131be95dd9611131d282a7281d52c?s=64&amp;d=retro&amp;r=g 2x" class="avatar avatar-32 photo" height="32" width="32">    <cite class="fn">Wagiman</cite> <span class="says">says:</span>    </div>
+    
+    <div class="comment-meta commentmetadata"><a href="http://www.jurnalweb.com/tutorial-cara-membuat-kalender-dengan-php-html-dan-css/#comment-116">
+        July 19, 2014 at 7:19 am</a>    </div>
+
+    <p>Kalo misalkan di kalender tersebut dikasih informasi , gimana caranya gan?</p>
+
+    <div class="reply">
+    <a rel="nofollow" class="comment-reply-link" href="http://www.jurnalweb.com/tutorial-cara-membuat-kalender-dengan-php-html-dan-css/?replytocom=116#respond" onclick="return addComment.moveForm( &quot;div-comment-116&quot;, &quot;116&quot;, &quot;respond&quot;, &quot;162&quot; )" aria-label="Reply to Wagiman">Reply</a>    </div>
+        </div>
+    <ul class="children">
+    <li class="comment byuser comment-author-jurnalisweb bypostauthor odd alt depth-2" id="comment-118">
+        <div id="div-comment-118" class="comment-body">
+        <div class="comment-author vcard">
+    <img alt="" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/f1afc7925c54a000783ef6fe1422003f" srcset="http://0.gravatar.com/avatar/f1afc7925c54a000783ef6fe1422003f?s=64&amp;d=retro&amp;r=g 2x" class="avatar avatar-32 photo" height="32" width="32">    <cite class="fn">Tutorial Website</cite> <span class="says">says:</span>    </div>
+    
+    <div class="comment-meta commentmetadata"><a href="http://www.jurnalweb.com/tutorial-cara-membuat-kalender-dengan-php-html-dan-css/#comment-118">
+        July 20, 2014 at 4:40 am</a>    </div>
+
+    <p>Tinggal main di looping nya, pake if else di bagian pencetakan tanggal</p>
+
+    <div class="reply">
+    <a rel="nofollow" class="comment-reply-link" href="http://www.jurnalweb.com/tutorial-cara-membuat-kalender-dengan-php-html-dan-css/?replytocom=118#respond" onclick="return addComment.moveForm( &quot;div-comment-118&quot;, &quot;118&quot;, &quot;respond&quot;, &quot;162&quot; )" aria-label="Reply to Tutorial Website">Reply</a>    </div>
+        </div>
+    </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+    <li class="comment even thread-odd thread-alt depth-1" id="comment-143">
+        <div id="div-comment-143" class="comment-body">
+        <div class="comment-author vcard">
+    <img alt="" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/80ec10efbde35524a29e0c52573c8084" srcset="http://2.gravatar.com/avatar/80ec10efbde35524a29e0c52573c8084?s=64&amp;d=retro&amp;r=g 2x" class="avatar avatar-32 photo" height="32" width="32">    <cite class="fn"><a href="http://www.terpusat.com/" rel="external nofollow" class="url">Terpusat Media</a></cite> <span class="says">says:</span>    </div>
+    
+    <div class="comment-meta commentmetadata"><a href="http://www.jurnalweb.com/tutorial-cara-membuat-kalender-dengan-php-html-dan-css/#comment-143">
+        August 5, 2014 at 6:48 am</a>    </div>
+
+    <p>wahh mantap… tp saya butuh yg Js, jadi tinggal diconvert saja ini fungsi… terimakasih banyak Mimin ganteng sangat sangat membantu buat modul Js saya (y) x unlimited</p>
+
+    <div class="reply">
+    <a rel="nofollow" class="comment-reply-link" href="http://www.jurnalweb.com/tutorial-cara-membuat-kalender-dengan-php-html-dan-css/?replytocom=143#respond" onclick="return addComment.moveForm( &quot;div-comment-143&quot;, &quot;143&quot;, &quot;respond&quot;, &quot;162&quot; )" aria-label="Reply to Terpusat Media">Reply</a>    </div>
+        </div>
+    </li><!-- #comment-## -->
+    <li class="comment odd alt thread-even depth-1" id="comment-1743">
+        <div id="div-comment-1743" class="comment-body">
+        <div class="comment-author vcard">
+    <img alt="" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/087550369c23852a4251e06b5befc994" srcset="http://0.gravatar.com/avatar/087550369c23852a4251e06b5befc994?s=64&amp;d=retro&amp;r=g 2x" class="avatar avatar-32 photo" height="32" width="32">    <cite class="fn"><a href="http://alimshareinfo.blogspot.com/" rel="external nofollow" class="url">Alimshare</a></cite> <span class="says">says:</span>    </div>
+    
+    <div class="comment-meta commentmetadata"><a href="http://www.jurnalweb.com/tutorial-cara-membuat-kalender-dengan-php-html-dan-css/#comment-1743">
+        October 6, 2014 at 4:19 am</a>    </div>
+
+    <p>wah , terima kasih mas .. lagi pengen belajar yang beginian nih :D</p>
+
+    <div class="reply">
+    <a rel="nofollow" class="comment-reply-link" href="http://www.jurnalweb.com/tutorial-cara-membuat-kalender-dengan-php-html-dan-css/?replytocom=1743#respond" onclick="return addComment.moveForm( &quot;div-comment-1743&quot;, &quot;1743&quot;, &quot;respond&quot;, &quot;162&quot; )" aria-label="Reply to Alimshare">Reply</a>    </div>
+        </div>
+    </li><!-- #comment-## -->
+    <li class="comment even thread-odd thread-alt depth-1" id="comment-1890">
+        <div id="div-comment-1890" class="comment-body">
+        <div class="comment-author vcard">
+    <img alt="" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/3010b2bb18c10c23d17100cbacf518b0" srcset="http://0.gravatar.com/avatar/3010b2bb18c10c23d17100cbacf518b0?s=64&amp;d=retro&amp;r=g 2x" class="avatar avatar-32 photo" height="32" width="32">    <cite class="fn"><a href="http://ahmadfikhi.blogspot.com/" rel="external nofollow" class="url">Fikhi</a></cite> <span class="says">says:</span>    </div>
+    
+    <div class="comment-meta commentmetadata"><a href="http://www.jurnalweb.com/tutorial-cara-membuat-kalender-dengan-php-html-dan-css/#comment-1890">
+        October 9, 2014 at 7:54 am</a>    </div>
+
+    <p>Gan ini kalendernya biar dinamis harus ane masukin database dulu gan?<br>
+Mohon infonya lagi butuh hehe</p>
+
+    <div class="reply">
+    <a rel="nofollow" class="comment-reply-link" href="http://www.jurnalweb.com/tutorial-cara-membuat-kalender-dengan-php-html-dan-css/?replytocom=1890#respond" onclick="return addComment.moveForm( &quot;div-comment-1890&quot;, &quot;1890&quot;, &quot;respond&quot;, &quot;162&quot; )" aria-label="Reply to Fikhi">Reply</a>    </div>
+        </div>
+    </li><!-- #comment-## -->
+    <li class="comment odd alt thread-even depth-1" id="comment-2129">
+        <div id="div-comment-2129" class="comment-body">
+        <div class="comment-author vcard">
+    <img alt="" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/13128822f5bb202e1f608ec816cce4b5" srcset="http://1.gravatar.com/avatar/13128822f5bb202e1f608ec816cce4b5?s=64&amp;d=retro&amp;r=g 2x" class="avatar avatar-32 photo" height="32" width="32">    <cite class="fn">MissD</cite> <span class="says">says:</span>    </div>
+    
+    <div class="comment-meta commentmetadata"><a href="http://www.jurnalweb.com/tutorial-cara-membuat-kalender-dengan-php-html-dan-css/#comment-2129">
+        November 5, 2014 at 12:45 am</a>    </div>
+
+    <p>Matur suwun mas, tutorialnya berguna banget ^^</p>
+
+    <div class="reply">
+    <a rel="nofollow" class="comment-reply-link" href="http://www.jurnalweb.com/tutorial-cara-membuat-kalender-dengan-php-html-dan-css/?replytocom=2129#respond" onclick="return addComment.moveForm( &quot;div-comment-2129&quot;, &quot;2129&quot;, &quot;respond&quot;, &quot;162&quot; )" aria-label="Reply to MissD">Reply</a>    </div>
+        </div>
+    </li><!-- #comment-## -->
+    <li class="comment even thread-odd thread-alt depth-1" id="comment-3250">
+        <div id="div-comment-3250" class="comment-body">
+        <div class="comment-author vcard">
+    <img alt="" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/cdb75b7e05f97a4008fc0c78c7d3894e" srcset="http://0.gravatar.com/avatar/cdb75b7e05f97a4008fc0c78c7d3894e?s=64&amp;d=retro&amp;r=g 2x" class="avatar avatar-32 photo" height="32" width="32">    <cite class="fn"><a href="http://codingrpl.blogspot.com/" rel="external nofollow" class="url">Yulia</a></cite> <span class="says">says:</span>    </div>
+    
+    <div class="comment-meta commentmetadata"><a href="http://www.jurnalweb.com/tutorial-cara-membuat-kalender-dengan-php-html-dan-css/#comment-3250">
+        February 3, 2015 at 6:32 am</a>    </div>
+
+    <p>thanks infonya,, bermanfaat banget..<br>
+izin copas gan :)</p>
+
+    <div class="reply">
+    <a rel="nofollow" class="comment-reply-link" href="http://www.jurnalweb.com/tutorial-cara-membuat-kalender-dengan-php-html-dan-css/?replytocom=3250#respond" onclick="return addComment.moveForm( &quot;div-comment-3250&quot;, &quot;3250&quot;, &quot;respond&quot;, &quot;162&quot; )" aria-label="Reply to Yulia">Reply</a>    </div>
+        </div>
+    </li><!-- #comment-## -->
+    <li class="comment odd alt thread-even depth-1" id="comment-3486">
+        <div id="div-comment-3486" class="comment-body">
+        <div class="comment-author vcard">
+    <img alt="" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/825d528cca3b9654a00e29f09ff25423" srcset="http://2.gravatar.com/avatar/825d528cca3b9654a00e29f09ff25423?s=64&amp;d=retro&amp;r=g 2x" class="avatar avatar-32 photo" height="32" width="32">    <cite class="fn">Pandu aldi</cite> <span class="says">says:</span>    </div>
+    
+    <div class="comment-meta commentmetadata"><a href="http://www.jurnalweb.com/tutorial-cara-membuat-kalender-dengan-php-html-dan-css/#comment-3486">
+        March 12, 2015 at 12:58 am</a>    </div>
+
+    <p>terimakasih.. sangat membantu sekali… kebetulan saya sedang mencari…</p>
+
+    <div class="reply">
+    <a rel="nofollow" class="comment-reply-link" href="http://www.jurnalweb.com/tutorial-cara-membuat-kalender-dengan-php-html-dan-css/?replytocom=3486#respond" onclick="return addComment.moveForm( &quot;div-comment-3486&quot;, &quot;3486&quot;, &quot;respond&quot;, &quot;162&quot; )" aria-label="Reply to Pandu aldi">Reply</a>    </div>
+        </div>
+    </li><!-- #comment-## -->
+    <li class="comment even thread-odd thread-alt depth-1 parent" id="comment-4586">
+        <div id="div-comment-4586" class="comment-body">
+        <div class="comment-author vcard">
+    <img alt="" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/89c2f0f405391bb359d5dc3396450e7f" srcset="http://2.gravatar.com/avatar/89c2f0f405391bb359d5dc3396450e7f?s=64&amp;d=retro&amp;r=g 2x" class="avatar avatar-32 photo" height="32" width="32">    <cite class="fn">dimas</cite> <span class="says">says:</span>    </div>
+    
+    <div class="comment-meta commentmetadata"><a href="http://www.jurnalweb.com/tutorial-cara-membuat-kalender-dengan-php-html-dan-css/#comment-4586">
+        May 27, 2015 at 9:54 pm</a>    </div>
+
+    <p>mas kalo cara pasang diblog widget jadinya kek gimana codingnya? terus didalem tanggalan ada tulisan informasi gitu . misalnya tggal 25 ada pemotretan .. tolong mas ane nubi banget heheh</p>
+
+    <div class="reply">
+    <a rel="nofollow" class="comment-reply-link" href="http://www.jurnalweb.com/tutorial-cara-membuat-kalender-dengan-php-html-dan-css/?replytocom=4586#respond" onclick="return addComment.moveForm( &quot;div-comment-4586&quot;, &quot;4586&quot;, &quot;respond&quot;, &quot;162&quot; )" aria-label="Reply to dimas">Reply</a>    </div>
+        </div>
+    <ul class="children">
+    <li class="comment byuser comment-author-jurnalisweb bypostauthor odd alt depth-2" id="comment-4592">
+        <div id="div-comment-4592" class="comment-body">
+        <div class="comment-author vcard">
+    <img alt="" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/f1afc7925c54a000783ef6fe1422003f" srcset="http://0.gravatar.com/avatar/f1afc7925c54a000783ef6fe1422003f?s=64&amp;d=retro&amp;r=g 2x" class="avatar avatar-32 photo" height="32" width="32">    <cite class="fn"><a href="http://www.jurnalweb.com/" rel="external nofollow" class="url">Jurnalis Web</a></cite> <span class="says">says:</span>    </div>
+    
+    <div class="comment-meta commentmetadata"><a href="http://www.jurnalweb.com/tutorial-cara-membuat-kalender-dengan-php-html-dan-css/#comment-4592">
+        May 28, 2015 at 8:57 am</a>    </div>
+
+    <p>Caranya agak panjang tidak bisa dijelaskan saat ini.., kalau artikel ini hanya secara general saja, untuk kelanjutannya silahkan disesuaikan dengan aplikasi yang dibuat, apakah itu dengan PHP, Framework, atau CMS tertentu.</p>
+
+    <div class="reply">
+    <a rel="nofollow" class="comment-reply-link" href="http://www.jurnalweb.com/tutorial-cara-membuat-kalender-dengan-php-html-dan-css/?replytocom=4592#respond" onclick="return addComment.moveForm( &quot;div-comment-4592&quot;, &quot;4592&quot;, &quot;respond&quot;, &quot;162&quot; )" aria-label="Reply to Jurnalis Web">Reply</a>    </div>
+        </div>
+    </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+    <li class="comment even thread-even depth-1" id="comment-18727">
+        <div id="div-comment-18727" class="comment-body">
+        <div class="comment-author vcard">
+    <img alt="" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/cc268a6e159b8a3906f50b9789c23504" srcset="http://0.gravatar.com/avatar/cc268a6e159b8a3906f50b9789c23504?s=64&amp;d=retro&amp;r=g 2x" class="avatar avatar-32 photo" height="32" width="32">    <cite class="fn">hasyim</cite> <span class="says">says:</span>    </div>
+    
+    <div class="comment-meta commentmetadata"><a href="http://www.jurnalweb.com/tutorial-cara-membuat-kalender-dengan-php-html-dan-css/#comment-18727">
+        February 22, 2016 at 6:58 am</a>    </div>
+
+    <p>terimakasih min..izin download</p>
+
+    <div class="reply">
+    <a rel="nofollow" class="comment-reply-link" href="http://www.jurnalweb.com/tutorial-cara-membuat-kalender-dengan-php-html-dan-css/?replytocom=18727#respond" onclick="return addComment.moveForm( &quot;div-comment-18727&quot;, &quot;18727&quot;, &quot;respond&quot;, &quot;162&quot; )" aria-label="Reply to hasyim">Reply</a>    </div>
+        </div>
+    </li><!-- #comment-## -->
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="comment-19258">
+        <div id="div-comment-19258" class="comment-body">
+        <div class="comment-author vcard">
+    <img alt="" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/f2d81c3184e3ffb8e07bc54b51932d4c" srcset="http://0.gravatar.com/avatar/f2d81c3184e3ffb8e07bc54b51932d4c?s=64&amp;d=retro&amp;r=g 2x" class="avatar avatar-32 photo" height="32" width="32">    <cite class="fn">desrat</cite> <span class="says">says:</span>    </div>
+    
+    <div class="comment-meta commentmetadata"><a href="http://www.jurnalweb.com/tutorial-cara-membuat-kalender-dengan-php-html-dan-css/#comment-19258">
+        March 11, 2016 at 9:58 am</a>    </div>
+
+    <p>Terima Kasih script nya bermanfaat untuk membuat kalender :)</p>
+
+    <div class="reply">
+    <a rel="nofollow" class="comment-reply-link" href="http://www.jurnalweb.com/tutorial-cara-membuat-kalender-dengan-php-html-dan-css/?replytocom=19258#respond" onclick="return addComment.moveForm( &quot;div-comment-19258&quot;, &quot;19258&quot;, &quot;respond&quot;, &quot;162&quot; )" aria-label="Reply to desrat">Reply</a>    </div>
+        </div>
+    </li><!-- #comment-## -->
+    <li class="comment even thread-even depth-1" id="comment-19970">
+        <div id="div-comment-19970" class="comment-body">
+        <div class="comment-author vcard">
+    <img alt="" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/58b4938f2701a6bf32c1dd5f049250d9" srcset="http://2.gravatar.com/avatar/58b4938f2701a6bf32c1dd5f049250d9?s=64&amp;d=retro&amp;r=g 2x" class="avatar avatar-32 photo" height="32" width="32">    <cite class="fn">Kumpulan Berita Unik dan Bacaan Terbaru</cite> <span class="says">says:</span>    </div>
+    
+    <div class="comment-meta commentmetadata"><a href="http://www.jurnalweb.com/tutorial-cara-membuat-kalender-dengan-php-html-dan-css/#comment-19970">
+        April 8, 2016 at 11:05 am</a>    </div>
+
+    <p>makasih banyak ilmunya :)<br>
+akan saya terapkan di website saya.. mutiarapena.com</p>
+
+    <div class="reply">
+    <a rel="nofollow" class="comment-reply-link" href="http://www.jurnalweb.com/tutorial-cara-membuat-kalender-dengan-php-html-dan-css/?replytocom=19970#respond" onclick="return addComment.moveForm( &quot;div-comment-19970&quot;, &quot;19970&quot;, &quot;respond&quot;, &quot;162&quot; )" aria-label="Reply to Kumpulan Berita Unik dan Bacaan Terbaru">Reply</a>    </div>
+        </div>
+    </li><!-- #comment-## -->
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="comment-20689">
+        <div id="div-comment-20689" class="comment-body">
+        <div class="comment-author vcard">
+    <img alt="" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/c17c149e75718aae9b3ed05c2572404d" srcset="http://0.gravatar.com/avatar/c17c149e75718aae9b3ed05c2572404d?s=64&amp;d=retro&amp;r=g 2x" class="avatar avatar-32 photo" height="32" width="32">    <cite class="fn">fida</cite> <span class="says">says:</span>    </div>
+    
+    <div class="comment-meta commentmetadata"><a href="http://www.jurnalweb.com/tutorial-cara-membuat-kalender-dengan-php-html-dan-css/#comment-20689">
+        April 28, 2016 at 1:38 pm</a>    </div>
+
+    <p>kak kalau kita hanya menampilkan tanggal dan waktu itu gimana script nya</p>
+
+    <div class="reply">
+    <a rel="nofollow" class="comment-reply-link" href="http://www.jurnalweb.com/tutorial-cara-membuat-kalender-dengan-php-html-dan-css/?replytocom=20689#respond" onclick="return addComment.moveForm( &quot;div-comment-20689&quot;, &quot;20689&quot;, &quot;respond&quot;, &quot;162&quot; )" aria-label="Reply to fida">Reply</a>    </div>
+        </div>
+    </li><!-- #comment-## -->
+    <li class="comment even thread-even depth-1" id="comment-21482">
+        <div id="div-comment-21482" class="comment-body">
+        <div class="comment-author vcard">
+    <img alt="" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/c6d58eba54b2d329bb6dca038b45058e" srcset="http://0.gravatar.com/avatar/c6d58eba54b2d329bb6dca038b45058e?s=64&amp;d=retro&amp;r=g 2x" class="avatar avatar-32 photo" height="32" width="32">    <cite class="fn">eka</cite> <span class="says">says:</span>    </div>
+    
+    <div class="comment-meta commentmetadata"><a href="http://www.jurnalweb.com/tutorial-cara-membuat-kalender-dengan-php-html-dan-css/#comment-21482">
+        May 22, 2016 at 8:39 pm</a>    </div>
+
+    <p>klo menampilkan tanggalnya sesuai dengan hari ini dan selanjutnya gimana?? soalnya di koding ini hanya menmpilkan kalender bulan tertentu.</p>
+
+    <div class="reply">
+    <a rel="nofollow" class="comment-reply-link" href="http://www.jurnalweb.com/tutorial-cara-membuat-kalender-dengan-php-html-dan-css/?replytocom=21482#respond" onclick="return addComment.moveForm( &quot;div-comment-21482&quot;, &quot;21482&quot;, &quot;respond&quot;, &quot;162&quot; )" aria-label="Reply to eka">Reply</a>    </div>
+        </div>
+    </li><!-- #comment-## -->
+    <li class="comment odd alt thread-odd thread-alt depth-1 parent" id="comment-24526">
+        <div id="div-comment-24526" class="comment-body">
+        <div class="comment-author vcard">
+    <img alt="" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/b93301f02c3d0f6a53f0c5efc5ef4e9d" srcset="http://2.gravatar.com/avatar/b93301f02c3d0f6a53f0c5efc5ef4e9d?s=64&amp;d=retro&amp;r=g 2x" class="avatar avatar-32 photo" height="32" width="32">    <cite class="fn">hendra</cite> <span class="says">says:</span>    </div>
+    
+    <div class="comment-meta commentmetadata"><a href="http://www.jurnalweb.com/tutorial-cara-membuat-kalender-dengan-php-html-dan-css/#comment-24526">
+        September 10, 2016 at 7:04 pm</a>    </div>
+
+    <p>Mas, maaf mau tanya.<br>
+jika ingin membuat kalender kerja bagaimana?<br>
+misal di klik tanggal 1, maka bisa dirubah kerja atau libur,</p>
+<p>mohon pencerahannya mas</p>
+<p>terima kasih</p>
+
+    <div class="reply">
+    <a rel="nofollow" class="comment-reply-link" href="http://www.jurnalweb.com/tutorial-cara-membuat-kalender-dengan-php-html-dan-css/?replytocom=24526#respond" onclick="return addComment.moveForm( &quot;div-comment-24526&quot;, &quot;24526&quot;, &quot;respond&quot;, &quot;162&quot; )" aria-label="Reply to hendra">Reply</a>    </div>
+        </div>
+    <ul class="children">
+    <li class="comment byuser comment-author-jurnalisweb bypostauthor even depth-2" id="comment-24542">
+        <div id="div-comment-24542" class="comment-body">
+        <div class="comment-author vcard">
+    <img alt="" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/f1afc7925c54a000783ef6fe1422003f" srcset="http://0.gravatar.com/avatar/f1afc7925c54a000783ef6fe1422003f?s=64&amp;d=retro&amp;r=g 2x" class="avatar avatar-32 photo" height="32" width="32">    <cite class="fn"><a href="http://www.jurnalweb.com/" rel="external nofollow" class="url">Jurnal Web</a></cite> <span class="says">says:</span>    </div>
+    
+    <div class="comment-meta commentmetadata"><a href="http://www.jurnalweb.com/tutorial-cara-membuat-kalender-dengan-php-html-dan-css/#comment-24542">
+        September 11, 2016 at 2:58 am</a>    </div>
+
+    <p>Kalau hanya status libur saja tinggal tambahkan jquery dan php untuk melakukan perubahan (disarankan anda sudah paham jquery dan php, jika belum sebaiknya pelajari dulu).<br>
+Atau kalau mau lebih lengkap bisa meniru tutorial <strong><a href="http://www.jqueryajaxphp.com/fullcalendar-crud-with-jquery-and-php/" target="_blank" rel="nofollow">ini</a></strong></p>
+
+    <div class="reply">
+    <a rel="nofollow" class="comment-reply-link" href="http://www.jurnalweb.com/tutorial-cara-membuat-kalender-dengan-php-html-dan-css/?replytocom=24542#respond" onclick="return addComment.moveForm( &quot;div-comment-24542&quot;, &quot;24542&quot;, &quot;respond&quot;, &quot;162&quot; )" aria-label="Reply to Jurnal Web">Reply</a>    </div>
+        </div>
+    </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+		</ol><!-- .commentlist -->
+
+		
+		
+	
+
+
+	<div class="comment-form">
+
+			
+			<div id="respond">
+
+				<h4 id="comments">Submit your comment</h4>
+
+				<div id="cancel-comment-reply">
+					<small><a rel="nofollow" id="cancel-comment-reply-link" href="http://www.jurnalweb.com/tutorial-cara-membuat-kalender-dengan-php-html-dan-css/#respond" style="display:none;">Click here to cancel reply.</a></small>
+				</div>
+
+				<br>
+					<form action="http://www.jurnalweb.com/wp-comments-post.php" method="post" class="form-horizontal" role="form" id="commentform">
+
+					
+	                <div class="form-group">
+	                  <label for="author" class="col-sm-3 control-label">* Name</label>
+	                  <div class="col-sm-9">
+	                    <input required="" class="form-control" type="text" name="author" id="author" placeholder="" value="" size="22" tabindex="1" aria-required="true">
+	                  </div>
+	                </div>
+
+	                <div class="form-group">
+	                  <label for="email" class="col-sm-3 control-label">Email</label>
+	                  <div class="col-sm-9">
+	                    <input required="" class="form-control" type="email" name="email" id="email" placeholder="" value="" size="22" tabindex="2" aria-required="true">
+	                  </div>
+	                </div>
+
+	                <div class="form-group">
+	                  <label for="url" class="col-sm-3 control-label">Website</label>
+	                  <div class="col-sm-9">
+	                    <input class="form-control" type="url" name="website" id="email" placeholder="http://" value="" size="22" tabindex="2" aria-required="true">
+	                  </div>
+	                </div>
+
+					
+
+	               	<div class="form-group">
+	                  <label for="inputTextarea" class="col-sm-3 control-label">Comment</label>
+	                  <div class="col-sm-9">
+	                    <textarea class="form-control" placeholder="" name="comment" id="comment" rows="10" tabindex="4"></textarea>
+	                  </div>
+	                </div>
+
+	               	<div class="form-group">
+	                  <label for="inputTextarea" class="col-sm-3 control-label"></label>
+	                  <div class="col-sm-9">
+						<p><small><strong>XHTML:</strong> You can use these tags: <br> <code>&lt;a href="" title=""&gt; &lt;abbr title=""&gt; &lt;acronym title=""&gt; &lt;b&gt; &lt;blockquote cite=""&gt; &lt;cite&gt; &lt;code&gt; &lt;del datetime=""&gt; &lt;em&gt; &lt;i&gt; &lt;q cite=""&gt; &lt;s&gt; &lt;strike&gt; &lt;strong&gt; </code></small></p>
+	                  </div>
+	                </div>
+
+	                <div class="form-group">
+	                  <div class="col-sm-12">
+	                    <button type="submit" class="btn btn-primary btn-lg btn-block">Submit Comment</button>
+	                  </div>
+	                </div>
+
+					<input type="hidden" name="comment_post_ID" value="162" id="comment_post_ID">
+<input type="hidden" name="comment_parent" id="comment_parent" value="0">
+					<p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="25b42b1e3a"></p><p style="display: none;"></p>
+					<input type="hidden" id="ak_js" name="ak_js" value="1490846011959"></form>
+
+							</div> <!--/ .respond -->
+
+				</div> <!--/ .comment-form -->
+
+
+
+
+</div><!-- #comments .comments-area -->				</div> <!--/ .post-comment -->
+
+			</article> <!--/ .single-detail -->
+
+		
+		
+
+		</div> <!--/ .content -->		
+
+				<aside class="col-md-4 sidebar">
+
+			<div id="text-8" class="widget widget_text">			<div class="textwidget"><div style="text-aling:center"><script async="" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/adsbygoogle.js.download"></script>
+<!-- JWR Top Post -->
+<ins class="adsbygoogle" style="display: block; height: 280px;" data-ad-client="ca-pub-6255327593321660" data-ad-slot="5842750604" data-ad-format="auto" data-adsbygoogle-status="done"><ins id="aswift_3_expand" style="display:inline-table;border:none;height:280px;margin:0;padding:0;position:relative;visibility:visible;width:339px;background-color:transparent"><ins id="aswift_3_anchor" style="display:block;border:none;height:280px;margin:0;padding:0;position:relative;visibility:visible;width:339px;background-color:transparent"><iframe width="339" height="280" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}" id="aswift_3" name="aswift_3" style="left:0;position:absolute;top:0;" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/saved_resource(3).html"></iframe></ins></ins></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div></div>
+		</div><div id="search-2" class="widget widget_search">				<form method="get" id="searchform" action="http://www.jurnalweb.com/">
+				<div class="input-group">
+					<input type="text" class="form-control" name="s" id="s" placeholder="Ketik kata kunci">
+					<span class="input-group-btn">
+						<button name="submit" id="searchsubmit" class="btn btn-default" type="button">Cari <i class="fa fa-search"></i></button>
+					</span>
+				</div><!-- /input-group -->
+				</form></div><div id="nav_menu-2" class="widget widget_nav_menu"><h3 class="widget-title">Topik Pembahasan</h3><div class="menu-topik-container"><ul id="menu-topik" class="menu double"><li id="menu-item-481" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-481"><a href="http://www.jurnalweb.com/content/web-design/">Web Design</a></li>
+<li id="menu-item-245" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-245"><a href="http://www.jurnalweb.com/content/web-development/">Web Development</a></li>
+<li id="menu-item-910" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-910"><a href="http://www.jurnalweb.com/content/blogging/">Blogging</a></li>
+<li id="menu-item-6805" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6805"><a href="http://www.jurnalweb.com/content/responsive-web/">Responsive Web</a></li>
+<li id="menu-item-290" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-290"><a href="http://www.jurnalweb.com/content/design/">Design</a></li>
+<li id="menu-item-233" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-233"><a href="http://www.jurnalweb.com/content/css/">CSS</a></li>
+<li id="menu-item-234" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-234"><a href="http://www.jurnalweb.com/content/jquery/">JQuery</a></li>
+<li id="menu-item-237" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-237"><a href="http://www.jurnalweb.com/content/php/">PHP</a></li>
+<li id="menu-item-569" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-569"><a href="http://www.jurnalweb.com/content/framework/">Frameworks</a></li>
+<li id="menu-item-235" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-235"><a href="http://www.jurnalweb.com/content/html/">HTML</a></li>
+<li id="menu-item-393" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-393"><a title="Internet Marketing" href="http://www.jurnalweb.com/content/internet-marketing/">Internet Marketing</a></li>
+<li id="menu-item-2884" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2884"><a href="http://www.jurnalweb.com/content/linux/">Linux</a></li>
+<li id="menu-item-236" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-236"><a href="http://www.jurnalweb.com/content/mobile/">Mobile</a></li>
+<li id="menu-item-232" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-232"><a href="http://www.jurnalweb.com/content/android/">Android</a></li>
+<li id="menu-item-827" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-827"><a href="http://www.jurnalweb.com/content/security/">Security</a></li>
+<li id="menu-item-241" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-241"><a href="http://www.jurnalweb.com/content/seo/">SEO</a></li>
+<li id="menu-item-238" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-238"><a href="http://www.jurnalweb.com/content/tools/">Tools</a></li>
+<li id="menu-item-555" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-555"><a href="http://www.jurnalweb.com/content/typography/">Typography</a></li>
+<li id="menu-item-239" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-239"><a href="http://www.jurnalweb.com/content/sosial-media/">Sosial Media</a></li>
+<li id="menu-item-240" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-240"><a href="http://www.jurnalweb.com/content/wordpress/">WordPress</a></li>
+</ul></div></div><div id="facebook-likebox-3" class="widget widget_facebook_likebox"><h3 class="widget-title"><a href="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/jurnalweb">Like dan gabung di Facebook</a></h3>		<div id="fb-root"></div>
+		<div class="fb-page fb_iframe_widget" data-href="https://www.facebook.com/jurnalweb" data-width="340" data-height="432" data-hide-cover="false" data-show-facepile="true" data-show-posts="false" fb-xfbml-state="rendered" fb-iframe-plugin-query="app_id=&amp;container_width=0&amp;height=432&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fjurnalweb&amp;locale=en_US&amp;sdk=joey&amp;show_facepile=true&amp;show_posts=false&amp;width=340"><span style="vertical-align: bottom; width: 340px; height: 214px;"><iframe name="f314050d53c4768" width="340px" height="432px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" title="fb:page Facebook Social Plugin" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/page.html" style="border: none; visibility: visible; width: 340px; height: 214px;" class=""></iframe></span></div>
+		</div><div id="top-posts-3" class="widget widget_top-posts"><h3 class="widget-title">Artikel Pilihan</h3><ul class="widgets-list-layout no-grav">
+					<li>
+												<a href="http://www.jurnalweb.com/tutorial-manipulasi-foto-dengan-photoshop/" title="13 Tutorial Manipulasi Foto Dengan Photoshop yang Super Keren" class="bump-view" data-bump-view="tp">
+							<img width="60" height="60" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/tutorial-manipulasi-photoshop-12.jpg" class="widgets-list-layout-blavatar" alt="13 Tutorial Manipulasi Foto Dengan Photoshop yang Super Keren" data-pin-nopin="true">
+						</a>
+						<div class="widgets-list-layout-links">
+							<a href="http://www.jurnalweb.com/tutorial-manipulasi-foto-dengan-photoshop/" class="bump-view" data-bump-view="tp">
+								13 Tutorial Manipulasi Foto Dengan Photoshop yang Super Keren							</a>
+						</div>
+											</li>
+									<li>
+												<a href="http://www.jurnalweb.com/cara-download-video-facebook-di-android/" title="4 Cara Download Video Facebook di Android" class="bump-view" data-bump-view="tp">
+							<img width="60" height="60" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/Facebook-Video-Downloader.jpg" class="widgets-list-layout-blavatar" alt="4 Cara Download Video Facebook di Android" data-pin-nopin="true">
+						</a>
+						<div class="widgets-list-layout-links">
+							<a href="http://www.jurnalweb.com/cara-download-video-facebook-di-android/" class="bump-view" data-bump-view="tp">
+								4 Cara Download Video Facebook di Android							</a>
+						</div>
+											</li>
+									<li>
+												<a href="http://www.jurnalweb.com/cara-mengakses-deep-web-bagian-terdalam-dari-internet/" title="Cara Mengakses Deep Web | Bagian Terdalam Dari Internet" class="bump-view" data-bump-view="tp">
+							<img width="60" height="60" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/tor-web-browser-deep-web.jpg" class="widgets-list-layout-blavatar" alt="Cara Mengakses Deep Web | Bagian Terdalam Dari Internet" data-pin-nopin="true">
+						</a>
+						<div class="widgets-list-layout-links">
+							<a href="http://www.jurnalweb.com/cara-mengakses-deep-web-bagian-terdalam-dari-internet/" class="bump-view" data-bump-view="tp">
+								Cara Mengakses Deep Web | Bagian Terdalam Dari Internet							</a>
+						</div>
+											</li>
+									<li>
+												<a href="http://www.jurnalweb.com/cara-menonaktifkan-akun-instagram/" title="Cara Menonaktifkan Akun Instagram Sementara Waktu" class="bump-view" data-bump-view="tp">
+							<img width="60" height="60" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/akun-instagram.jpg" class="widgets-list-layout-blavatar" alt="Cara Menonaktifkan Akun Instagram Sementara Waktu" data-pin-nopin="true">
+						</a>
+						<div class="widgets-list-layout-links">
+							<a href="http://www.jurnalweb.com/cara-menonaktifkan-akun-instagram/" class="bump-view" data-bump-view="tp">
+								Cara Menonaktifkan Akun Instagram Sementara Waktu							</a>
+						</div>
+											</li>
+									<li>
+												<a href="http://www.jurnalweb.com/cara-menggunakan-satu-akun-whatsapp-di-dua-handphone-berbeda/" title="Cara Gunakan Satu Akun WhatsApp di Dua Handphone Berbeda" class="bump-view" data-bump-view="tp">
+							<img width="60" height="60" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/whatsapp.jpg" class="widgets-list-layout-blavatar" alt="Cara Gunakan Satu Akun WhatsApp di Dua Handphone Berbeda" data-pin-nopin="true">
+						</a>
+						<div class="widgets-list-layout-links">
+							<a href="http://www.jurnalweb.com/cara-menggunakan-satu-akun-whatsapp-di-dua-handphone-berbeda/" class="bump-view" data-bump-view="tp">
+								Cara Gunakan Satu Akun WhatsApp di Dua Handphone Berbeda							</a>
+						</div>
+											</li>
+									<li>
+												<a href="http://www.jurnalweb.com/fitur-rahasia-instagram-yang-tersembunyi/" title="12 Fitur Rahasia Instagram yang Tersembunyi" class="bump-view" data-bump-view="tp">
+							<img width="60" height="60" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/instagram1.jpg" class="widgets-list-layout-blavatar" alt="12 Fitur Rahasia Instagram yang Tersembunyi" data-pin-nopin="true">
+						</a>
+						<div class="widgets-list-layout-links">
+							<a href="http://www.jurnalweb.com/fitur-rahasia-instagram-yang-tersembunyi/" class="bump-view" data-bump-view="tp">
+								12 Fitur Rahasia Instagram yang Tersembunyi							</a>
+						</div>
+											</li>
+									<li>
+												<a href="http://www.jurnalweb.com/contoh-desain-halaman-login-keren-kode-css-nya/" title="17 Contoh Desain Halaman Login Keren + Kode CSS Nya" class="bump-view" data-bump-view="tp">
+							<img width="60" height="60" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/Login-Box-Concept.jpg" class="widgets-list-layout-blavatar" alt="17 Contoh Desain Halaman Login Keren + Kode CSS Nya" data-pin-nopin="true">
+						</a>
+						<div class="widgets-list-layout-links">
+							<a href="http://www.jurnalweb.com/contoh-desain-halaman-login-keren-kode-css-nya/" class="bump-view" data-bump-view="tp">
+								17 Contoh Desain Halaman Login Keren + Kode CSS Nya							</a>
+						</div>
+											</li>
+									<li>
+												<a href="http://www.jurnalweb.com/aplikasi-untuk-merekam-layar-di-android/" title="8 Aplikasi Untuk Merekam Layar di Android (Screen Recorder)" class="bump-view" data-bump-view="tp">
+							<img width="60" height="60" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/screen-recorder-Android.jpg" class="widgets-list-layout-blavatar" alt="8 Aplikasi Untuk Merekam Layar di Android (Screen Recorder)" data-pin-nopin="true">
+						</a>
+						<div class="widgets-list-layout-links">
+							<a href="http://www.jurnalweb.com/aplikasi-untuk-merekam-layar-di-android/" class="bump-view" data-bump-view="tp">
+								8 Aplikasi Untuk Merekam Layar di Android (Screen Recorder)							</a>
+						</div>
+											</li>
+									<li>
+												<a href="http://www.jurnalweb.com/situs-nonton-anime-subtitle-bahasa-indonesia-terbaik-dan-terlengkap/" title="8 Situs Nonton Anime Subtitle Bahasa Indonesia Terbaik dan Terlengkap" class="bump-view" data-bump-view="tp">
+							<img width="60" height="60" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/anime.jpg" class="widgets-list-layout-blavatar" alt="8 Situs Nonton Anime Subtitle Bahasa Indonesia Terbaik dan Terlengkap" data-pin-nopin="true">
+						</a>
+						<div class="widgets-list-layout-links">
+							<a href="http://www.jurnalweb.com/situs-nonton-anime-subtitle-bahasa-indonesia-terbaik-dan-terlengkap/" class="bump-view" data-bump-view="tp">
+								8 Situs Nonton Anime Subtitle Bahasa Indonesia Terbaik dan Terlengkap							</a>
+						</div>
+											</li>
+									<li>
+												<a href="http://www.jurnalweb.com/33-template-admin-bootstrap-gratis-responsive/" title="33 Template Admin Bootstrap Gratis &amp; Responsive" class="bump-view" data-bump-view="tp">
+							<img width="60" height="60" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/kadmin-template.jpg" class="widgets-list-layout-blavatar" alt="33 Template Admin Bootstrap Gratis &amp; Responsive" data-pin-nopin="true">
+						</a>
+						<div class="widgets-list-layout-links">
+							<a href="http://www.jurnalweb.com/33-template-admin-bootstrap-gratis-responsive/" class="bump-view" data-bump-view="tp">
+								33 Template Admin Bootstrap Gratis &amp; Responsive							</a>
+						</div>
+											</li>
+				</ul>
+</div><style>
+.rpwe-block ul{list-style:none!important;margin-left:0!important;padding-left:0!important;}.rpwe-block li{border-bottom:1px solid #eee;margin-bottom:10px;padding-bottom:10px;list-style-type: none;}.rpwe-block a{display:inline!important;text-decoration:none;}.rpwe-block h3{background:none!important;clear:none;margin-bottom:0!important;margin-top:0!important;margin-left:20px!important;font-weight:400;font-size:14px!important;font-weight:bold;line-height:1.5em;}.rpwe-thumb{border:1px solid #EEE!important;box-shadow:none!important;margin:2px 10px 2px 0;padding:3px!important;}.rpwe-summary{font-size:12px;}.rpwe-time{color:#bbb;font-size:11px;}.rpwe-comment{color:#bbb;font-size:11px;padding-left:5px;}.rpwe-alignleft{display:inline;float:left;}.rpwe-alignright{display:inline;float:right;}.rpwe-aligncenter{display:block;margin-left: auto;margin-right: auto;}.rpwe-clearfix:before,.rpwe-clearfix:after{content:"";display:table !important;}.rpwe-clearfix:after{clear:both;}.rpwe-clearfix{zoom:1;}
+</style>
+	<div id="rpwe_widget-2" class="widget rpwe_widget recent-posts-extended"><h3 class="widget-title">Artikel Terbaru</h3><div class="rpwe-block "><ul class="rpwe-ul"><li class="rpwe-li rpwe-clearfix"><a class="rpwe-img" href="http://www.jurnalweb.com/mengecek-ketersediaan-username-dengan-ajax-jquery-php-mysql/" rel="bookmark"><img class="rpwe-alignleft rpwe-thumb" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/username-availability-60x60.jpg" alt="Cek Ketersediaan Data Username dengan AJAX jQuery PHP"></a><h3 class="rpwe-title"><a href="http://www.jurnalweb.com/mengecek-ketersediaan-username-dengan-ajax-jquery-php-mysql/" title="Permalink to Cek Ketersediaan Data Username dengan AJAX jQuery PHP" rel="bookmark">Cek Ketersediaan Data Username dengan AJAX jQuery PHP</a></h3><time class="rpwe-time published" datetime="2017-03-25T11:56:49+00:00">March 25, 2017</time></li><li class="rpwe-li rpwe-clearfix"><a class="rpwe-img" href="http://www.jurnalweb.com/daftar-gaji-karyawan-it-di-indonesia-2017/" rel="bookmark"><img class="rpwe-alignleft rpwe-thumb" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/karyawan-IT-60x60.jpg" alt="Daftar Gaji Karyawan IT di Indonesia Tahun Ini"></a><h3 class="rpwe-title"><a href="http://www.jurnalweb.com/daftar-gaji-karyawan-it-di-indonesia-2017/" title="Permalink to Daftar Gaji Karyawan IT di Indonesia Tahun Ini" rel="bookmark">Daftar Gaji Karyawan IT di Indonesia Tahun Ini</a></h3><time class="rpwe-time published" datetime="2017-03-19T18:49:46+00:00">March 19, 2017</time></li><li class="rpwe-li rpwe-clearfix"><a class="rpwe-img" href="http://www.jurnalweb.com/pendapatan-bukalapak-50-miliar-perhari-namun-belum-untung/" rel="bookmark"><img class="rpwe-alignleft rpwe-thumb" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/bukalapak-60x60.jpg" alt="Pendapatan Bukalapak 50 Miliar perhari Namun Belum Untung"></a><h3 class="rpwe-title"><a href="http://www.jurnalweb.com/pendapatan-bukalapak-50-miliar-perhari-namun-belum-untung/" title="Permalink to Pendapatan Bukalapak 50 Miliar perhari Namun Belum Untung" rel="bookmark">Pendapatan Bukalapak 50 Miliar perhari Namun Belum Untung</a></h3><time class="rpwe-time published" datetime="2017-03-17T21:57:15+00:00">March 17, 2017</time></li><li class="rpwe-li rpwe-clearfix"><a class="rpwe-img" href="http://www.jurnalweb.com/cara-membuat-animasi-efek-mengetik-teks-dengan-css/" rel="bookmark"><img class="rpwe-alignleft rpwe-thumb" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/animasi-mengetik-teks-css-60x60.jpg" alt="Cara Membuat Animasi Efek Mengetik Teks dengan CSS tanpa Javascript"></a><h3 class="rpwe-title"><a href="http://www.jurnalweb.com/cara-membuat-animasi-efek-mengetik-teks-dengan-css/" title="Permalink to Cara Membuat Animasi Efek Mengetik Teks dengan CSS tanpa Javascript" rel="bookmark">Cara Membuat Animasi Efek Mengetik Teks dengan CSS tanpa Javascript</a></h3><time class="rpwe-time published" datetime="2017-03-16T15:46:16+00:00">March 16, 2017</time></li><li class="rpwe-li rpwe-clearfix"><a class="rpwe-img" href="http://www.jurnalweb.com/keuntungan-dan-kerugian-kerja-freelance/" rel="bookmark"><img class="rpwe-alignleft rpwe-thumb" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/freelancer-60x60.jpg" alt="23 Keuntungan dan Kerugian Kerja Freelance"></a><h3 class="rpwe-title"><a href="http://www.jurnalweb.com/keuntungan-dan-kerugian-kerja-freelance/" title="Permalink to 23 Keuntungan dan Kerugian Kerja Freelance" rel="bookmark">23 Keuntungan dan Kerugian Kerja Freelance</a></h3><time class="rpwe-time published" datetime="2017-03-12T02:29:34+00:00">March 12, 2017</time></li><li class="rpwe-li rpwe-clearfix"><a class="rpwe-img" href="http://www.jurnalweb.com/kelebihan-wordpress/" rel="bookmark"><img class="rpwe-alignleft rpwe-thumb" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/wordpress-60x60.jpg" alt="27 Kelebihan WordPress yang Membuatnya Jadi CMS Terpopuler"></a><h3 class="rpwe-title"><a href="http://www.jurnalweb.com/kelebihan-wordpress/" title="Permalink to 27 Kelebihan WordPress yang Membuatnya Jadi CMS Terpopuler" rel="bookmark">27 Kelebihan WordPress yang Membuatnya Jadi CMS Terpopuler</a></h3><time class="rpwe-time published" datetime="2017-03-10T19:50:55+00:00">March 10, 2017</time></li><li class="rpwe-li rpwe-clearfix"><a class="rpwe-img" href="http://www.jurnalweb.com/pengertian-freelance-atau-pekerja-lepas/" rel="bookmark"><img class="rpwe-alignleft rpwe-thumb" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/freelance-60x60.jpg" alt="Pengertian Freelance atau Pekerja Lepas"></a><h3 class="rpwe-title"><a href="http://www.jurnalweb.com/pengertian-freelance-atau-pekerja-lepas/" title="Permalink to Pengertian Freelance atau Pekerja Lepas" rel="bookmark">Pengertian Freelance atau Pekerja Lepas</a></h3><time class="rpwe-time published" datetime="2017-03-10T14:07:17+00:00">March 10, 2017</time></li></ul></div><!-- Generated by http://wordpress.org/plugins/recent-posts-widget-extended/ --></div><div id="text-2" class="widget widget_text"><h3 class="widget-title">Partner</h3>			<div class="textwidget">Artikel lain dari website partner</div>
+		</div><div id="rss-2" class="widget widget_rss"><h3 class="widget-title"><a class="rsswidget" href="http://feeds.feedburner.com/tut_web"><img class="rss-widget-icon" style="border:0" width="14" height="14" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/rss.png" alt="RSS"></a> <a class="rsswidget" href="http://www.tutorial-webdesign.com/">Tutorial Web Design</a></h3><ul><li><a class="rsswidget" href="http://www.tutorial-webdesign.com/membangun-aplikasi-android-dengan-ionic-framework/">Membangun Aplikasi Android dengan IONIC Framework</a></li><li><a class="rsswidget" href="http://www.tutorial-webdesign.com/trixy-template-website-versi-mobile-gratis-dengan-jquery/">Trixy: Template Website Versi Mobile Gratis dengan jQuery</a></li><li><a class="rsswidget" href="http://www.tutorial-webdesign.com/implementasi-session-di-codeigniter-3/">Implementasi Session di Codeigniter 3</a></li><li><a class="rsswidget" href="http://www.tutorial-webdesign.com/membuat-aplikasi-hello-world-dengan-phalcon-framwork-php/">Membuat Aplikasi “Hello World!” dengan Phalcon Framework PHP</a></li><li><a class="rsswidget" href="http://www.tutorial-webdesign.com/tips-membuat-brosur-yang-menarik/">3 Tips Membuat Brosur Yang Menarik Untuk Dibaca Masyarakat</a></li><li><a class="rsswidget" href="http://www.tutorial-webdesign.com/cara-menggunakan-blog-sebagai-media-penghasil-uang/">3 Cara Menggunakan Blog sebagai Media Penghasil Uang [Terbukti]</a></li><li><a class="rsswidget" href="http://www.tutorial-webdesign.com/cara-menginstall-phalcon-framework-php-di-windows/">Cara Menginstall Phalcon Framework PHP di Windows</a></li><li><a class="rsswidget" href="http://www.tutorial-webdesign.com/cara-menggunakan-google-fonts/">Cara Menggunakan Google Fonts</a></li></ul></div>
+		</aside> <!--/ .sidebar -->
+	</div> <!--/ .row -->
+</main><div id="fb-root" class=" fb_reset"><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div><iframe name="fb_xdm_frame_http" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" id="fb_xdm_frame_http" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tabindex="-1" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/1FegrZjPbq3.html" style="border: none;"></iframe><iframe name="fb_xdm_frame_https" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" id="fb_xdm_frame_https" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tabindex="-1" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/1FegrZjPbq3(1).html" style="border: none;"></iframe></div></div><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div></div></div></div> <!--/ .main -->
+
+
+<section class="sidebar-bottom">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 col-xs-12">
+				<div id="text-5" class="widget widget_text"><h3 class="widget-title">Jurnalweb.com</h3>			<div class="textwidget"><strong>Jurnal Web</strong> adalah website yang berisi berita, artikel, tutorial, tips dan triks, serta hal-hal menarik lain yang berkaitan dengan pengembangan website dan teknologi informatika.</div>
+		</div>				<ul class="social-media" role="menu">
+					<li class="social-media-text">Follow juga akun sosial media kami </li>
+					<li><a href="https://www.facebook.com/jurnalweb/"><i class="fa fa-facebook-square"></i></a></li><li><a href="https://twitter.com/jurnal_web"><i class="fa fa-twitter-square"></i></a></li><li><a href="http://feeds.feedburner.com/jurnalweb"><i class="fa fa-rss-square"></i></a></li>
+				</ul>
+			</div>
+			<div class="col-md-2 col-xs-6">
+                                <div id="pages-2" class="widget widget_pages"><h3 class="widget-title">Rules</h3>		<ul>
+			<li class="page_item page-item-2"><a href="http://www.jurnalweb.com/about-us/">About Us</a></li>
+<li class="page_item page-item-6778"><a href="http://www.jurnalweb.com/privacy-policy/">Privacy Policy</a></li>
+<li class="page_item page-item-6780"><a href="http://www.jurnalweb.com/term-of-services/">Term of Services</a></li>
+		</ul>
+		</div></div><div class="col-md-2 col-xs-6">
+                                <div id="nav_menu-3" class="widget widget_nav_menu"><h3 class="widget-title">Rekomendasi</h3><div class="menu-rekomendasi-container"><ul id="menu-rekomendasi" class="menu double"><li id="menu-item-6790" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6790"><a href="http://www.jurnalweb.com/content/seo/">SEO</a></li>
+<li id="menu-item-6789" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6789"><a href="http://www.jurnalweb.com/content/web-design/">Web Design</a></li>
+<li id="menu-item-6791" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6791"><a href="http://www.jurnalweb.com/content/web-development/">Web Dev</a></li>
+</ul></div></div></div>		</div>
+	</div>
+</section> <!--/ .sidebar-bottom -->
+
+<footer class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-md-push-6">
+
+				<ul class="social-media" role="menu">
+					<li class="social-media-text">Follow us on </li>
+					<li><a href="https://www.facebook.com/jurnalweb/"><i class="fa fa-facebook-square"></i></a></li><li><a href="https://twitter.com/jurnal_web"><i class="fa fa-twitter-square"></i></a></li><li><a href="http://feeds.feedburner.com/jurnalweb"><i class="fa fa-rss-square"></i></a></li>				</ul>
+			</div>
+			<div class="col-md-6 col-md-pull-6">
+				<div class="copyright">
+					Copyright ©  2017 <a href="http://www.jurnalweb.com/">Jurnal Web</a> - All right reserved				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<div id="fb-root"></div>
+			<script>(function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&appId=249643311490&version=v2.3'; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk'));</script>
+			<script>
+			jQuery( document.body ).on( 'post-load', function() {
+				if ( 'undefined' !== typeof FB ) {
+					FB.XFBML.parse();
+				}
+			} );
+			</script>
+						<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+						<script>
+			function renderGooglePlus1() {
+				if ( 'undefined' === typeof gapi ) {
+					return;
+				}
+
+				jQuery( '.g-plus' ).each(function() {
+					var $button = jQuery( this );
+
+					if ( ! $button.data( 'gplus-rendered' ) ) {
+						gapi.plusone.render( this, {
+							href: $button.attr( 'data-href' ),
+							size: $button.attr( 'data-size' ),
+							annotation: $button.attr( 'data-annotation' )
+						});
+
+						$button.data( 'gplus-rendered', true );
+					}
+				});
+			}
+
+			(function() {
+				var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+				po.src = 'https://apis.google.com/js/plusone.js';
+				po.innerHTML = '{"parsetags": "explicit"}';
+				po.onload = renderGooglePlus1;
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+			})();
+
+			jQuery( document.body ).on( 'post-load', renderGooglePlus1 );
+			</script>
+			<script type="text/javascript" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/form.js.download"></script>
+<link rel="stylesheet" id="prismcss-css" href="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/prism.css" type="text/css" media="all">
+<link rel="stylesheet" id="prism-linenumbercss-css" href="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/prism-line-numbers.css" type="text/css" media="all">
+<link rel="stylesheet" id="yarppRelatedCss-css" href="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/related.css" type="text/css" media="all">
+<script type="text/javascript" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/devicepx-jetpack.js.download"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var spuvar = {"is_admin":"","disable_style":"","safe_mode":"","ajax_mode":"1","ajax_url":"http:\/\/www.jurnalweb.com\/wp-admin\/admin-ajax.php","ajax_mode_url":"http:\/\/www.jurnalweb.com\/?spu_action=spu_load&lang=","pid":"162","is_front_page":"","is_category":"","site_url":"http:\/\/www.jurnalweb.com","is_archive":"","is_search":"","seconds_confirmation_close":"5"};
+var spuvar_social = {"facebook":"1"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/public-min.js.download"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var jpfbembed = {"appid":"249643311490","locale":"en_US"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/facebook-embed.js.download"></script>
+<script type="text/javascript" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/wp-embed.min.js.download"></script>
+<script type="text/javascript" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/prism.js.download"></script>
+<script type="text/javascript" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/prism-normalize-whitespace.min.js.download"></script>
+<script type="text/javascript" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/prism-line-numbers.min.js.download"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var sharing_js_options = {"lang":"en","counts":"1"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/sharing.js.download"></script>
+<script type="text/javascript">
+var windowOpen;
+			jQuery( document.body ).on( 'click', 'a.share-facebook', function() {
+				// If there's another sharing window open, close it.
+				if ( 'undefined' !== typeof windowOpen ) {
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery( this ).attr( 'href' ), 'wpcomfacebook', 'menubar=1,resizable=1,width=600,height=400' );
+				return false;
+			});
+</script>
+<script type="text/javascript" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/e-201713.js.download" async="" defer=""></script>
+<script type="text/javascript">
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:4.7.1',blog:'74174050',post:'162',tz:'7',srv:'www.jurnalweb.com'} ]);
+	_stq.push([ 'clickTrackerInit', '74174050', '162' ]);
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-35458873-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<div class="dd_outer" style="position: fixed;"><div class="dd_inner" style="width: 1056px;"><div id="dd_ajax_float" style="position: absolute; top: 130px; left: -95px; display: block;"><div class="dd_button_v"><iframe id="twitter-widget-1" scrolling="no" frameborder="0" allowtransparency="true" class="twitter-share-button twitter-share-button-rendered twitter-tweet-button" title="Twitter Tweet Button" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/tweet_button.89bd237a86eeb0e8b1de842a4b88b09b.en(1).html" style="position: static; visibility: visible; width: 60px; height: 20px;" data-url="http://www.jurnalweb.com/tutorial-cara-membuat-kalender-dengan-php-html-dan-css/"></iframe></div><div style="clear:left"></div><div class="dd_button_v"><a class="DD_FBSHARE_AJAX_162" name="fb_share" type="box_count" share_url="http://www.jurnalweb.com/tutorial-cara-membuat-kalender-dengan-php-html-dan-css/" href="http://www.facebook.com/sharer.php"></a></div><div style="clear:left"></div><div class="dd_button_v"><script src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/all.js.download"></script><fb:like href="http://www.jurnalweb.com/tutorial-cara-membuat-kalender-dengan-php-html-dan-css/" send="false" show_faces="false" layout="box_count" width="50" class=" fb_iframe_widget" fb-xfbml-state="rendered" fb-iframe-plugin-query="app_id=&amp;container_width=0&amp;href=http%3A%2F%2Fwww.jurnalweb.com%2Ftutorial-cara-membuat-kalender-dengan-php-html-dan-css%2F&amp;layout=box_count&amp;locale=en_US&amp;sdk=joey&amp;send=false&amp;show_faces=false&amp;width=50"><span style="vertical-align: bottom; width: 50px; height: 40px;"><iframe name="f1a48ec2c72cb68" width="50px" height="1000px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" title="fb:like Facebook Social Plugin" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/like(1).html" style="border: none; visibility: visible; width: 50px; height: 40px;" class=""></iframe></span></fb:like></div><div style="clear:left"></div><div class="dd_button_v"><g:plusone size="tall" href="http://www.jurnalweb.com/tutorial-cara-membuat-kalender-dengan-php-html-dan-css/"></g:plusone></div><div style="clear:left"></div></div></div></div><iframe name="oauth2relay300077679" id="oauth2relay300077679" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/postmessageRelay.html" tabindex="-1" aria-hidden="true" style="width: 1px; height: 1px; position: absolute; top: -100px;"></iframe><!-- Popups v1.7.1 - http://wordpress.org/plugins/social-popup/--><style type="text/css">
+#spu-4727 {
+	background-color: #ffffff;
+	color: #333;	border: 5px solid #555;	width: 350px;
+
+}
+#spu-bg-4727 {
+	opacity: 0.8;
+}
+/*
+* Add custom CSS for this popup
+* Be sure to start your rules with #spu-4727 { } and use !important when needed to override plugin rules
+*/</style>
+<div class="spu-bg" id="spu-bg-4727"></div>
+<div class="spu-box  spu-centered spu-total-1 " id="spu-4727" data-box-id="4727" data-trigger="seconds" data-trigger-number="0" data-spuanimation="fade" data-cookie="3" data-close-cookie="30" data-test-mode="0" data-auto-hide="0" data-close-on-conversion="1" data-bgopa="0.8" data-total="1" style="display: none;" data-width="350">
+	<div class="spu-content"><p style="text-align: center; margin-top: 0px; padding-top: 0px;"><strong>Hai kawan, ingin dapat update info dunia web dan teknologi terbaru, silahkan di Like&nbsp;/&nbsp;Sukai</strong></p>
+<p style="text-align: center;"></p><div class="spu-facebook-page"><div class="fb-page" data-href="https://www.facebook.com/jurnalweb" data-width="300" data-hide-cover="false" data-show-facepile="10" data-show-posts="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/jurnalweb"><a href="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/jurnalweb">Jurnal Web Indonesia</a></blockquote></div></div></div><p style="margin-bottom: 0px; padding-bottom: 0px;"></p>
+</div>
+	<span class="spu-close spu-close-popup"><i class="spu-icon spu-icon-close"></i></span>
+	<span class="spu-timer"></span>
+	</div>
+<!-- / Popups Box -->
+<div id="fb-root" class=" fb_reset"></div><iframe id="rufous-sandbox" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" style="position: absolute; visibility: hidden; display: none; width: 0px; height: 0px; padding: 0px; border: none;" title="Twitter analytics iframe" src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/saved_resource(4).html"></iframe><img src="./Tutorial Cara Membuat Kalender Dengan PHP, HTML dan CSS _ Tutorial Website_files/g.gif" alt=":)" width="6" height="5" id="wpstats"></body></html>

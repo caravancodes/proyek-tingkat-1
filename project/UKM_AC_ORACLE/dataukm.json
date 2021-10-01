@@ -1,0 +1,132 @@
+{
+    "dataukm": {
+        "data": [
+            {
+                "id_ukm": "Al-Fath",
+                "nama_ukm": "Al-Fath",
+                "kategori_ukm": "Formal",
+                "logo_ukm": "fath.jpg"
+            },
+            {
+                "id_ukm": "ASTACALA",
+                "nama_ukm": "ASTACALA (Perhimpunan Mahasiswa Pecinta Alam)",
+                "kategori_ukm": "Formal",
+                "logo_ukm": "astacala.jpg"
+            },
+            {
+                "id_ukm": "Badminton",
+                "nama_ukm": "Telkom University Badminton Club",
+                "kategori_ukm": "Olahraga",
+                "logo_ukm": "Badminton.jpeg"
+            },
+            {
+                "id_ukm": "Band",
+                "nama_ukm": "UKM Band",
+                "kategori_ukm": "Seni",
+                "logo_ukm": "Band.jpeg"
+            },
+            {
+                "id_ukm": "Bola",
+                "nama_ukm": "UKM Bola Telkom University",
+                "kategori_ukm": "Olahraga",
+                "logo_ukm": "ukm bola.jpg"
+            },
+            {
+                "id_ukm": "Djawa",
+                "nama_ukm": "UKM Djawa Tjap Parabola",
+                "kategori_ukm": "Daerah",
+                "logo_ukm": "djawa.png"
+            },
+            {
+                "id_ukm": "Embun",
+                "nama_ukm": "Bengkel Seni Embun",
+                "kategori_ukm": "Seni",
+                "logo_ukm": "Embun.png"
+            },
+            {
+                "id_ukm": "Klaten",
+                "nama_ukm": "Paseduluran Mahasiswa Tcah Klaten",
+                "kategori_ukm": "Daerah",
+                "logo_ukm": "Klaten.jpg"
+            },
+            {
+                "id_ukm": "KMK",
+                "nama_ukm": "Komunitas Mahasiswa Kristen(KMK)",
+                "kategori_ukm": "Formal",
+                "logo_ukm": "kmk.png"
+            },
+            {
+                "id_ukm": "KOPMA",
+                "nama_ukm": "Koperasi Mahasiswa",
+                "kategori_ukm": "Formal",
+                "logo_ukm": "kopma.png"
+            },
+            {
+                "id_ukm": "Merpati",
+                "nama_ukm": "Merpati Putih",
+                "kategori_ukm": "Olahraga",
+                "logo_ukm": "merpatiputih.png"
+            },
+            {
+                "id_ukm": "Nihono",
+                "nama_ukm": "Nihono Matsuri",
+                "kategori_ukm": "Seni",
+                "logo_ukm": "Matsuri.png"
+            },
+            {
+                "id_ukm": "Orchestra",
+                "nama_ukm": "Eka Sanbadita Orchestra",
+                "kategori_ukm": "Seni",
+                "logo_ukm": "Orkestra.png"
+            },
+            {
+                "id_ukm": "PMK",
+                "nama_ukm": "Persekutuan Mahasiswa Kristen",
+                "kategori_ukm": "Formal",
+                "logo_ukm": "pmk.png"
+            },
+            {
+                "id_ukm": "Riverside",
+                "nama_ukm": "Riverside",
+                "kategori_ukm": "Olahraga",
+                "logo_ukm": "Riverside.png"
+            },
+            {
+                "id_ukm": "Rumah Gadang",
+                "nama_ukm": "Rumah Gadang Telkom University",
+                "kategori_ukm": "Daerah",
+                "logo_ukm": "Rumah gadang.jpg"
+            },
+            {
+                "id_ukm": "Sawanda",
+                "nama_ukm": "Swara Waditra Sunda",
+                "kategori_ukm": "Daerah",
+                "logo_ukm": "sws.png"
+            },
+            {
+                "id_ukm": "Sulawesi",
+                "nama_ukm": "KBM Sulawesi",
+                "kategori_ukm": "Daerah",
+                "logo_ukm": "sulawesi.jpg"
+            },
+            {
+                "id_ukm": "TKD",
+                "nama_ukm": "Tae Kwon Do Telkom University",
+                "kategori_ukm": "Olahraga",
+                "logo_ukm": "Tae Kwon Do.jpg"
+            },
+            {
+                "id_ukm": "UKMBALI",
+                "nama_ukm": "UKM Kesenian Bali",
+                "kategori_ukm": "Daerah",
+                "logo_ukm": "ukmbali.jpeg"
+            },
+            {
+                "id_ukm": "Voli",
+                "nama_ukm": "UKM Voli Telkom University",
+                "kategori_ukm": "Olahraga",
+                "logo_ukm": "Voli.jpg"
+            }
+        ]
+    }
+}
